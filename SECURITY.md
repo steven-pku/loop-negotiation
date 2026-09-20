@@ -1,6 +1,6 @@
 # Security and responsible reporting
 
-This repository is an **unreleased public review candidate**. Formal release remains **HOLD**. The open findings in [REVIEW.md](REVIEW.md) include safety and privacy gaps. Publishing these files for inspection is not a claim that those gaps are fixed.
+Current review evidence and its limits are indexed in [REVIEW.md](REVIEW.md); earlier HOLD findings remain in the historical review. Public availability and published synthetic tests are not release approval or proof that all safety and privacy gaps are closed.
 
 ## Scope and data handling
 

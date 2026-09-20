@@ -3,7 +3,7 @@ name: loop-negotiation
 description: "中文谈薪与职场关键对话准备：先核 BATNA 和底线，再做 Brief、话术卡、评分及受约束模拟。适用于录用意向已明确的 offer 议价、在职加薪、重要拒绝、离职与坏消息谈话；市场事实待核不编造。不用于技法百科、现场代打、模拟面试、offer 前薪资摸底、是否跳槽的决策、合同法律审查或日常措辞润色。"
 license: MIT
 metadata:
-  version: "0.4.1"
+  version: "0.4.2"
 ---
 
 # Loop Negotiation
