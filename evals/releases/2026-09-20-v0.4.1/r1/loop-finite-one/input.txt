@@ -1,0 +1,4 @@
+Use the project-installed loop-negotiation at .agents/skills/loop-negotiation/SKILL.md and actually read the runtime references needed. This is an isolated evaluation with fictional people and organizations. Do not read outside this project, any eval files, or expected answers. Do not write files, delegate, use network, or execute external actions. Local read-only arithmetic checks are permitted. Produce the normal user-visible answer to the request and then list the actual runtime files read.
+
+合成状态交接，用 loop-negotiation。此前同一套卡已两次改写复评，QA loop 2/2 并 Halt。现在我明确追加 1 次整套修订机会，累计最多 3 次，请修索证回应并复评，然后停止。
+Brief：另一 offer 是故事事实，可口头说存在但不分享文件身份；角色已获当前公司 26K 报价，个人目标 28K、满意27K、底线26K加review，不成接受另一选择；Downside可承受。市场化，可交换到岗时间与review。当前索证卡：“你要看就把全部原件发你，顺便给你朋友那份工资单。”其他卡内容一致，mock已经指出这一处隐私漏洞。请修改这一张。

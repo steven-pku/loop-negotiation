@@ -1,0 +1,6 @@
+Use the project-installed loop-negotiation at .agents/skills/loop-negotiation/SKILL.md and actually read the runtime references needed. This is an isolated evaluation with fictional people and organizations. Do not read outside this project, any eval files, or expected answers. Do not write files, delegate, use network, or execute external actions. Local read-only arithmetic checks are permitted. Produce the normal user-visible answer to the request and then list the actual runtime files read.
+
+纯合成自动 Mock Only，一组压价情境，3 轮对答后收束，不改卡。
+用户侧私密 Brief：理想 30K、满意 28K、私有底线 26.5K 加 review，不成留现岗，代价可承受；用户不打算透露底线。市场化，双方可讨论到岗时间和 review。
+HR 侧已知：公司报 26K；角色口头期望 30K；有到岗与 review 两个议题。HR 不知道用户最低值及留任计划。卡面：“我希望基于承担的职责讨论 30K 这个个人目标；如果数字空间有限，想确认 review 条件和到岗安排。”
+请展示这轮模拟与发现。

@@ -1,0 +1,5 @@
+Use the project-installed loop-negotiation at .agents/skills/loop-negotiation/SKILL.md and actually read the runtime references needed. This is an isolated evaluation with fictional people and organizations. Do not read outside this project, any eval files, or expected answers. Do not write files, delegate, use network, or execute external actions. Local read-only arithmetic checks are permitted. Produce the normal user-visible answer to the request and then list the actual runtime files read.
+
+合成演练案例，人物、公司及数字均虚构。请用 loop-negotiation 为角色甲做 Full Loop，自动对打，并给完整最终卡组与检查记录。
+角色已获明确录用意向，新公司 HR 初步报价固定月薪 26K、12 薪，浮动奖金另定，答复期限一周。甲可以继续现岗，现岗稳定、职责可接受，没有其他 offer；拒绝新职位不会失去现岗收入，谈崩代价可承受。甲的个人目标：理想 28K，满意 27K，底线固定 26K 且能书面确认半年 review 条件；低于底线就礼貌婉拒并留任。这些是个人选择，不是市场价。甲不提供当前收入，也没有市场调查。
+薪酬体制：市场化，已知 HR 可在 26–29K 提案、最终由用人负责人确认。对方已知甲可两周到岗，不知道甲的底线，也不知道甲是否另有 offer。对方希望一个月内补岗。明确可讨论：入职时间、每周一天远程、半年 review 机制；签字费是否存在未知。甲愿意提前一周到岗换 review 条件写清，或接受无远程换固定薪资达到满意层；不会同时无条件放弃所有议题。双方未来需共事。请按这些资料准备。

@@ -1,0 +1,7 @@
+“周末不加班，资料周一上午交付。”
+
+无威胁；保留拒绝和交付安排。累计 QA loop：**3/3**，停止修改。
+
+本轮未新增读取；此前实际读取：
+- `.agents/skills/loop-negotiation/SKILL.md`
+- `.agents/skills/loop-negotiation/references/negotiation-rubric.md`

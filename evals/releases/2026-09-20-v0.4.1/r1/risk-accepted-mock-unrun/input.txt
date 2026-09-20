@@ -1,0 +1,4 @@
+Use the project-installed loop-negotiation at .agents/skills/loop-negotiation/SKILL.md and actually read the runtime references needed. This is an isolated evaluation with fictional people and organizations. Do not read outside this project, any eval files, or expected answers. Do not write files, delegate, use network, or execute external actions. Local read-only arithmetic checks are permitted. Produce the normal user-visible answer to the request and then list the actual runtime files read.
+
+合成案例，角色已通过 Gate：可留现岗，个人目标28K、满意27K、底线26K，谈不成留任，Downside可承受。市场化；已询问其他议题但角色仍选择只谈 base，这是个人策略选择。已有一套无虚构和威胁的卡：开场确认谈薪、把28K说成个人期望、对26K报价请求说明空间、若低于26K婉拒。资料没有市场论据。尚未运行任何 mock。
+上轮已告知风险 R2＝只谈 base 缺替代交换，R7＝没有模拟压力反馈。角色现在明确说：“我接受 R2、R7，今天不做 mock，不新增其他议题。”请用 loop-negotiation 输出最终状态和 Ship Check，不要替角色模拟已经发生的回合。

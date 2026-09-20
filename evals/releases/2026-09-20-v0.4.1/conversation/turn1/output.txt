@@ -1,0 +1,9 @@
+“周末我不能加班，资料周一上午给你，请确认。”
+
+威胁检查：无威胁或情绪升级；保留了明确拒绝与可行替代安排。
+
+累计 QA loop：**2/2**，本次仅修改一次，到此停止。
+
+实际读取的 runtime 文件：
+- `.agents/skills/loop-negotiation/SKILL.md`
+- `.agents/skills/loop-negotiation/references/negotiation-rubric.md`

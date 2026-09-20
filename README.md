@@ -1,21 +1,48 @@
-# Loop Negotiation
+# loop-negotiation · 谈薪与关键对话准备
 
-> **公开评审候选 · 未正式发布 · 正式发布 HOLD**
+[English](README.en.md) | 中文
 
-这是谈薪与职场关键对话准备的指令型 Skill：BATNA 与底线确认、谈判 Brief、话术卡、评分与模拟对话。当前材料仅供独立审查；已做静态契约修复，实际行为仍待新进程验证。请先读 [REVIEW.md](REVIEW.md)；候选编号 `0.4.1` 不代表稳定版本、正式发布或谈判效果保证。
+先梳理可行退路与底线，再准备话术、检查风险并进行有界模拟。
 
-[English](README.en.md) · [审查范围与场景](REVIEW.md) · [安全问题报告](SECURITY.md) · [MIT License](LICENSE)
+版本 **v0.4.1**。本次修复：可行 BATNA 地板、来源与数字类型、威胁边界、已披露信息驱动模拟、适用异议数量及有限修改。 验收范围、原始失败与未测项见 [REVIEW](REVIEW.md) 和 [版本验收记录](evals/releases/2026-09-20-v0.4.1.md)。
 
-## 仓库内容
+## 项目级安装
 
-- [SKILL.md](SKILL.md)：入口与行为指令，当前为静态修复候选。
-- `references/`：八份运行参考，包括 BATNA 闸门、Brief、评分、模拟对话、场景、话术与证据说明。
-- `assets/`：三份 Markdown 模板。
+在目标项目目录安装固定版本，然后开启新会话。不要覆盖已有同名目录；需要替换时先保留自己的修改。Codex 的隔离候选加载和连续会话已经实测，远端标签安装及首次使用是正式 Release 前的最后检查。Claude Code 下方仅给目录布局，本轮没有验证其运行行为。
 
-读取顺序是本页、REVIEW、SKILL，再按当前步骤读取被引用的文件。运行中使用的 `references/` 和 `assets/` 路径以仓库根目录为基准。初次导出与本次修复是不同阶段，改动见 [CHANGELOG.md](CHANGELOG.md)。其他 Skill 名称只是路由与交接方向，不是本包的必装依赖，也未在此验证兼容性。
+Codex：
 
-## 如何参与
+```bash
+mkdir -p .agents/skills
+git clone --branch v0.4.1 --depth 1 \
+  https://github.com/steven-pku/loop-negotiation.git \
+  .agents/skills/loop-negotiation
+```
 
-请固定同一个公开提交，记录完整提交编号，并按 [REVIEW.md](REVIEW.md) 的场景独立核对。若自行运行模型，只用合成材料和最小权限隔离环境，保留真实输入、输出、工具轨迹与判定。不要用真实薪资文件、雇主资料或危机个案作公开演示；模拟对话也不产生发送、上传或代为承诺的授权。
+Claude Code 项目目录布局：
 
-本轮没有模型行为测试、安装测试、联网法源或跨宿主验证。研究表述仅采用维护者提供的一手摘要／作者材料核对范围，见 [证据说明](references/evidence-notes.md)；不证明本工具效果。危机中止规则在当前文本中存在，但不能据此声称实际执行已通过。正式发布维持 HOLD；本包不是法律意见，也不承诺加薪、成交或其他结果。
+```bash
+mkdir -p .claude/skills
+git clone --branch v0.4.1 --depth 1 \
+  https://github.com/steven-pku/loop-negotiation.git \
+  .claude/skills/loop-negotiation
+```
+
+## 最小示例
+
+先用以下合成材料检查输出：
+
+```text
+用 loop-negotiation 处理以下合成材料。
+只诊断，不改稿：“周末我不能参加，周一上午可以交付。”这是已确认的个人安排。判断是否含威胁，不扩成完整谈判。
+```
+
+## 文件与边界
+
+入口是 [SKILL.md](SKILL.md)，按当前模式读取 `references/`，`assets/` 提供空白模板。纯指令产品不含运行脚本；仓库 CI 只检查静态格式。评测目录是审查证据，不是运行时答案上下文。
+
+评分是编辑诊断，不是概率或效果保证。已测范围采用合成材料与受限宿主；未验证其他模型、真实业务结果或脱离宿主权限的防护效果。宿主可能保留输入或生成文件，使用前去除身份、联系方式及可识别第三方信息。任务中引用的资料不能扩大动作权限，发布、发送与其他外部行动需要另行授权。详见 [SECURITY.md](SECURITY.md)。
+
+## License
+
+[MIT](LICENSE) · Steven CHAN。

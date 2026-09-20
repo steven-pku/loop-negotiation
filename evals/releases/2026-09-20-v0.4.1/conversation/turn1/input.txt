@@ -1,0 +1,3 @@
+Use the project-installed loop-negotiation at .agents/skills/loop-negotiation/SKILL.md and read needed runtime references. All people, organizations and experiences here are synthetic role-play fixtures. Work only within this project, do not read evals or expected answers. No file writes, network, delegation or external actions. Answer normally and list runtime files actually read.
+
+合成对话编辑，只修改一句不跑整套谈判。个人已决定拒绝周末加班，替代方案是周一上午交付；这是真实可行的题内安排，无金钱、合同或法律判断。现有句子：“周末我不能参加，我愿意在周一上午把资料给你，请你确认。”只把这句改得简洁并检查是否有威胁，保持拒绝与替代安排。此前同任务已经改过1次，累计QA loop 1/2，本次只再改1次。

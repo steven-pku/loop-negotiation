@@ -1,0 +1,25 @@
+已使用追加的 1 次机会，仅修改索证卡。**累计 QA loop：3/3，复评后停止。**
+
+**修订后的索证卡**
+
+【对方说】“另一份 offer 能发来看看吗？”
+
+【你答】“理解你希望核实，我确实有另一份 offer，但不分享文件或对方身份，也不提供第三方工资单。我很重视这次机会，希望我们继续围绕岗位条件讨论：我的期望是 28K，到岗时间和 review 安排也可以一起商量。”
+
+【逻辑】在允许范围内陈述真实选择，明确披露边界，再转回个人目标与可交换条件。
+
+**局部复评**
+
+- **真实性与隐私：通过。** 另一 offer 按合成故事事实使用，未虚构金额、身份或期限；28K 明确是个人期望。原句“全部原件发你”“给你朋友那份工资单”已删除，无上传或后补材料承诺。
+- **Brief 一致性：通过。** 未新增让步；满意 27K、底线 26K 加 review、不成接受另一选择均保留。到岗时间与 review 属于已知可交换项。
+- **异议回应：局部通过。** 有回应、明确边界和转向路径。其余卡未展示，不重打整套覆盖度分数。
+- **语气与关系：9/10（仅此卡）。** 表达坚定、照顾合作关系，无威胁措辞；扣分对应“review 安排也可以一起商量”，机制仍较概括，具体条件待谈判确认。
+
+**结论：本张卡纸面复评 Pass。** 原隐私漏洞已修补；此前 mock 指出漏洞的状态予以承接，本轮未新增模拟，不能声称修订卡已通过再次对打。整套不另报总分。修订预算已耗尽，现停止。
+
+实际读取的 runtime 文件：
+
+- `.agents/skills/loop-negotiation/SKILL.md`
+- `.agents/skills/loop-negotiation/references/negotiation-rubric.md`
+- `.agents/skills/loop-negotiation/references/script-card-patterns.md`
+- `.agents/skills/loop-negotiation/references/cn-workplace-notes.md`

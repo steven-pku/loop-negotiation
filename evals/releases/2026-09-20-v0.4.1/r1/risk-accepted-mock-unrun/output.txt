@@ -1,0 +1,22 @@
+最终状态：**Revise / risk accepted**。按角色明确选择收束，保留现有卡组；不新增议题，不运行 mock，不标为 Pass。
+
+**Ship Check**
+
+| 检查项 | 结果 |
+|---|---|
+| BATNA / Downside | Gate 已通过；谈不成留任，代价可承受，现有卡组与之相符。 |
+| 目标与底线 | 个人理想 28K、满意 27K、底线 26K；低于 26K 婉拒。面对 26K 请求说明空间，不构成越过底线。 |
+| 数字与来源 | 三层数字均为案例给定的个人选择；28K 仅作为个人期望使用。没有市场论据，不将其表述为市场价；币种、薪资周期未提供，不补猜。 |
+| Package explored | **confirmed**：已询问其他议题，角色选择只谈 base。故不满足 fatal #2「可交换项根本未探索」的条件；R2 仍作为议题单一、缺少替代交换的策略风险保留。 |
+| 真实性与语气 | 按所提供的卡组描述，无虚构、无威胁，底线一致；未提供完整原句，不补造逐句评分或总分。 |
+| Mock | **not run；实际对答 0 回合**。无模拟发现，也无压力测试通过证据。R7 保留。 |
+| 风险接受记录 | 角色实际确认：“**我接受 R2、R7，今天不做 mock，不新增其他议题。**”两项均已明确接受，风险未消除。 |
+| 累计修订预算 | 本轮改卡 0 次；历史累计次数未提供，不能宣称累计 0/2。默认上限 2 次；mock 无效重跑 0/1。 |
+| 待核与下一步 | 无阻塞本次收束的追问。继续使用现有卡组准备；实际谈话后可依据真实反馈复盘。 |
+| Overall direction | **Revise / risk accepted**；接受风险不等于模拟完成或准备质量获判 Pass。 |
+
+实际读取的 runtime 文件（均在项目内）：
+
+- `.agents/skills/loop-negotiation/SKILL.md`
+- `.agents/skills/loop-negotiation/references/negotiation-rubric.md`
+- `.agents/skills/loop-negotiation/references/mock-adversary-guide.md`

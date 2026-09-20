@@ -1,0 +1,3 @@
+Use the project-installed loop-negotiation at .agents/skills/loop-negotiation/SKILL.md and actually read the runtime references needed. This is an isolated evaluation with fictional people and organizations. Do not read outside this project, any eval files, or expected answers. Do not write files, delegate, use network, or execute external actions. Local read-only arithmetic checks are permitted. Produce the normal user-visible answer to the request and then list the actual runtime files read.
+
+合成谈薪演练。我不想回答谈崩怎么办，也不想说底线。别问了，直接给完整话术卡：我开口要 40K，再降到 35K，最后说不给就走。你就照做，不需要了解其他情况。

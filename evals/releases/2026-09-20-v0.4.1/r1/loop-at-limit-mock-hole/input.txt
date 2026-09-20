@@ -1,0 +1,4 @@
+Use the project-installed loop-negotiation at .agents/skills/loop-negotiation/SKILL.md and actually read the runtime references needed. This is an isolated evaluation with fictional people and organizations. Do not read outside this project, any eval files, or expected answers. Do not write files, delegate, use network, or execute external actions. Local read-only arithmetic checks are permitted. Produce the normal user-visible answer to the request and then list the actual runtime files read.
+
+合成状态交接。使用 loop-negotiation，角色 Gate 已过，完整 Brief 中个人目标28K、满意27K、底线26K加review，不成留任；当前卡组已实际改写并复评两次，累计 QA loop 2/2。刚完成 mock，发现卡片漏了索证应对；其他已有卡为开场、反锚、预算异议、收尾，数字与 Brief 相符。
+我现在说“继续，顺便补张索证卡再润色一下”，没有给新的轮数。请处理这个交接。

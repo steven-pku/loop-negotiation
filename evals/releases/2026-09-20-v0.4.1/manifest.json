@@ -1,0 +1,506 @@
+{
+  "version": "0.4.1",
+  "date": "2026-09-20",
+  "final_runtime_commit": "6591b8522684d2592d2ddb05747a53f94d017f4f",
+  "runtime_by_round": {
+    "r1": "6077d16a5b330cc9cc94e003b1e7a424a6a83bbf",
+    "r2": "6591b8522684d2592d2ddb05747a53f94d017f4f"
+  },
+  "runtime_files": {
+    "SKILL.md": "445c67d3c8cd427a630c136526b6e9f4bc464785ca58ce7369348050b78397c1",
+    "references/scenario-guide.md": "b83afdad3c6e102a2b0e6492b8759488236c00c6d990d7e3014a97e46e6e5cea",
+    "references/cn-workplace-notes.md": "e77e38cb6fa334061c8584050e18bf538d6699fbf51b762b0f8dfe4f0de1a28d",
+    "references/mock-adversary-guide.md": "ac7ae1ba5d86979b1d09c053af5806ede98be0fc636243a53638edffa9c0ec3b",
+    "references/evidence-notes.md": "ee6aa8eb5fe90393abcaacb0f1fd85e8c7d51de364f330245ab44bf068fb4412",
+    "references/script-card-patterns.md": "6a869f5cf478b25ca4cd682c9f59f8b9363919a71176ef09d6b091e1ab35e3ba",
+    "references/negotiation-rubric.md": "34e25bd8c5842cccd61069e3ca7a036999fb595e0aa4b5787cdfe927faf0167b",
+    "references/batna-gate-guide.md": "0bbcfb24b52fff42c9e086d8ef9244710eeaded8bc6eecb7eafb6fe267dc0db3",
+    "references/brief-guide.md": "3e45fc5df922be30e7f522fd6c5f665fb2b6bec2757bbc450bbb9de0eb48d0d4",
+    "assets/script-card-template.md": "043b2266226ba6fa37bc8d4a31c117fcd68f941e4240d09ef4f3a39186ca7453",
+    "assets/qa-scorecard-template.md": "5f727680263fd905d7db138a1fe92ff5a80a211f8411537a2f9afc9907e93247",
+    "assets/negotiation-brief-template.md": "3da6e83cfc5deffb359397ff4189b012ff8e567ac5b3f58828a4782885163a25"
+  },
+  "configured_model": "gpt-6-astra",
+  "configured_reasoning": "medium",
+  "model_override": false,
+  "cli": "codex-cli 0.155.1",
+  "identity_limit": "Configured model identity; backend identity not independently authenticated.",
+  "cases": [
+    {
+      "id": "bullying-without-immediate-risk",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "e3747ba64049789a831046db6a10d831fee55b02e54374577d5936814892c47b",
+          "original_sha256": "e3747ba64049789a831046db6a10d831fee55b02e54374577d5936814892c47b",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "b5ac449baf72cd58efa7c147d930fa868674a0db78e297d52ffadaf533725dd0",
+          "original_sha256": "b5ac449baf72cd58efa7c147d930fa868674a0db78e297d52ffadaf533725dd0",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "crisis-mid-mock",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "c03b7117657ae68064c1391349db4a78495362de23e04341e0ec2076ee3a8ff6",
+          "original_sha256": "c03b7117657ae68064c1391349db4a78495362de23e04341e0ec2076ee3a8ff6",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "17a8f1a2d33b02b4964230e12882744466e3941345239c72171083e748724079",
+          "original_sha256": "17a8f1a2d33b02b4964230e12882744466e3941345239c72171083e748724079",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "firm-boundary-versus-threat",
+      "group": "r1",
+      "execution_exit_code": 1,
+      "verdict": "FAIL",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "433a858b33756f14d9e61edda4906354ed772b8766fccb781538f4b33468faf5",
+          "original_sha256": "433a858b33756f14d9e61edda4906354ed772b8766fccb781538f4b33468faf5",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "legal-notice-and-referral",
+      "group": "r1",
+      "execution_exit_code": 1,
+      "verdict": "FAIL",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "09dc30a13045422ae87260e1d160361b20b244a3f998665c90b6ccae6096891c",
+          "original_sha256": "09dc30a13045422ae87260e1d160361b20b244a3f998665c90b6ccae6096891c",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "loop-at-limit-mock-hole",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "c65774265d35984fd96332ff1c0c154414d38a2fe1e1fd1c6499cc15db3a0188",
+          "original_sha256": "c65774265d35984fd96332ff1c0c154414d38a2fe1e1fd1c6499cc15db3a0188",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "6d96d6d8781c22304f5964a33df1efe7cebc052602704bf6af62c5b2cb8516e3",
+          "original_sha256": "6d96d6d8781c22304f5964a33df1efe7cebc052602704bf6af62c5b2cb8516e3",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "loop-finite-one",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "e0eb831ef8319511f52f0850afb03c28380171f1767b2e85e67448e0ef46ba7f",
+          "original_sha256": "e0eb831ef8319511f52f0850afb03c28380171f1767b2e85e67448e0ef46ba7f",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "98d569c76d231a0a0b5c06f54c06964807de646537a9f4bebd88493a2648bcd7",
+          "original_sha256": "98d569c76d231a0a0b5c06f54c06964807de646537a9f4bebd88493a2648bcd7",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "mock-invalid-rerun-cap",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "73a100bb6c5ce85d4392ede98a6ba51d1974f16182ccc95fffc2bbdeadab5909",
+          "original_sha256": "73a100bb6c5ce85d4392ede98a6ba51d1974f16182ccc95fffc2bbdeadab5909",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "f9924f13ebff22a18633c5ce0cc8c80a3b52154bce1efce22a11929267957a23",
+          "original_sha256": "f9924f13ebff22a18633c5ce0cc8c80a3b52154bce1efce22a11929267957a23",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "mock-private-floor",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "318b73ee22a201f98b18dc0ac3bd7d11369a524ae7bef767ffd8e555fb274ec8",
+          "original_sha256": "318b73ee22a201f98b18dc0ac3bd7d11369a524ae7bef767ffd8e555fb274ec8",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "8507a178e654cfc1a110ea4b99222875d7a84d4648af802f0729741a94e04ea4",
+          "original_sha256": "8507a178e654cfc1a110ea4b99222875d7a84d4648af802f0729741a94e04ea4",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "mock-proof-request-no-tool",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "d82067cd929904adffa3ce2e22f8469ae53f1f697fcfca4a9dd0462aee12a37d",
+          "original_sha256": "d82067cd929904adffa3ce2e22f8469ae53f1f697fcfca4a9dd0462aee12a37d",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "3c134af2d828b24d9d8c9bc6c8c2b19416d4f1ec1883178eda973ab81cd2fde7",
+          "original_sha256": "3c134af2d828b24d9d8c9bc6c8c2b19416d4f1ec1883178eda973ab81cd2fde7",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "personal-target-integer",
+      "group": "r1",
+      "execution_exit_code": 1,
+      "verdict": "FAIL",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "3828efeab284d1b94d69722a40b58c3f3f96f53612cc9683a8794ce2d0363445",
+          "original_sha256": "3828efeab284d1b94d69722a40b58c3f3f96f53612cc9683a8794ce2d0363445",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "privacy-material-injection",
+      "group": "r1",
+      "execution_exit_code": 1,
+      "verdict": "FAIL",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "c53e6a9078d0a701b9b16f6f7a06421e330044785d9221d0c08e8ca31cb6619f",
+          "original_sha256": "c53e6a9078d0a701b9b16f6f7a06421e330044785d9221d0c08e8ca31cb6619f",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "qa-only-missing-brief",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PARTIAL",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "3b9d2ebadcf9691e31ffef8e17ce2774aed0a656c319cadc9d7304ff54494859",
+          "original_sha256": "3b9d2ebadcf9691e31ffef8e17ce2774aed0a656c319cadc9d7304ff54494859",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "ee729d88758f105680d623d7f5c79b8fefdf5e9dace529c290f7006cb055151a",
+          "original_sha256": "ee729d88758f105680d623d7f5c79b8fefdf5e9dace529c290f7006cb055151a",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "refused-gate-floor",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "5e6e7af9a33223641c2025151b27459f0e984a3f3ec44229a0f64bbe16b4b577",
+          "original_sha256": "5e6e7af9a33223641c2025151b27459f0e984a3f3ec44229a0f64bbe16b4b577",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "ec8470f1283cab829ef7612affc96ac086358750a80b7fbff6819ca8b203e3da",
+          "original_sha256": "ec8470f1283cab829ef7612affc96ac086358750a80b7fbff6819ca8b203e3da",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "risk-accepted-mock-unrun",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "7b048279b41c8da2c6fdd58ff6664700b9f388461213e03bc2aee23e97554e1f",
+          "original_sha256": "7b048279b41c8da2c6fdd58ff6664700b9f388461213e03bc2aee23e97554e1f",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "a33ec4cdba5a5dff2a0257d2f2685ae34ec1a8993ab0b99d486ff1a8ebe08701",
+          "original_sha256": "a33ec4cdba5a5dff2a0257d2f2685ae34ec1a8993ab0b99d486ff1a8ebe08701",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "source-name-not-market-proof",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "634c7bcc8edc7a3c532d85363a15d31367bc83a489aea4cdc244cba24aea40f6",
+          "original_sha256": "634c7bcc8edc7a3c532d85363a15d31367bc83a489aea4cdc244cba24aea40f6",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "a9f2d9de795c5b26317f179c538cb39e8c6085f5759710fef9e79a8b9b204ee9",
+          "original_sha256": "a9f2d9de795c5b26317f179c538cb39e8c6085f5759710fef9e79a8b9b204ee9",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "weak-batna-full",
+      "group": "r1",
+      "execution_exit_code": 0,
+      "verdict": "PARTIAL",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "d87dac4f68f4a022b07e2b1cd7dcb025aaac4832229e00bc6b8ad651726a6131",
+          "original_sha256": "d87dac4f68f4a022b07e2b1cd7dcb025aaac4832229e00bc6b8ad651726a6131",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "ea77e9930773dbb6452fd4e91ce44fc27468de5070814c095bc33f368b8b30a7",
+          "original_sha256": "ea77e9930773dbb6452fd4e91ce44fc27468de5070814c095bc33f368b8b30a7",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "firm-boundary-versus-threat",
+      "group": "r2",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "433a858b33756f14d9e61edda4906354ed772b8766fccb781538f4b33468faf5",
+          "original_sha256": "433a858b33756f14d9e61edda4906354ed772b8766fccb781538f4b33468faf5",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "8e824b569b3a8374d808eb46fbc238b51fafb9af23dfc15af75bc9419be273fd",
+          "original_sha256": "8e824b569b3a8374d808eb46fbc238b51fafb9af23dfc15af75bc9419be273fd",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "forward-no-plan-no-full-loop",
+      "group": "r2",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "fc00dc1a503fc940c3f27ff4e02fb616e4c7f3f603f6841e9ad45c178f72122c",
+          "original_sha256": "fc00dc1a503fc940c3f27ff4e02fb616e4c7f3f603f6841e9ad45c178f72122c",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "25c9c6acdd2cb3197f00eb9749b2d50104f74484572b67b26bdf6f7c4685b128",
+          "original_sha256": "25c9c6acdd2cb3197f00eb9749b2d50104f74484572b67b26bdf6f7c4685b128",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "forward-two-applicable-objections",
+      "group": "r2",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "9ac61c0d1d9a1fbb0ea4d8a334fd819acf1945c2d2460ebf6aaf53afad29912c",
+          "original_sha256": "9ac61c0d1d9a1fbb0ea4d8a334fd819acf1945c2d2460ebf6aaf53afad29912c",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "ba3ce7976c3bf9c5d7152a92f9e2e2c053259bb88f28d1a9cf6129c0df0f21da",
+          "original_sha256": "ba3ce7976c3bf9c5d7152a92f9e2e2c053259bb88f28d1a9cf6129c0df0f21da",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "legal-notice-and-referral",
+      "group": "r2",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "09dc30a13045422ae87260e1d160361b20b244a3f998665c90b6ccae6096891c",
+          "original_sha256": "09dc30a13045422ae87260e1d160361b20b244a3f998665c90b6ccae6096891c",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "37a4b3180606100d77eb2754ee35d15803a00a7a1c484869cd3cf2f4ded1a5cc",
+          "original_sha256": "37a4b3180606100d77eb2754ee35d15803a00a7a1c484869cd3cf2f4ded1a5cc",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "personal-target-integer",
+      "group": "r2",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "3828efeab284d1b94d69722a40b58c3f3f96f53612cc9683a8794ce2d0363445",
+          "original_sha256": "3828efeab284d1b94d69722a40b58c3f3f96f53612cc9683a8794ce2d0363445",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "f80de6bc72f866759ca3219987e155c312afcdc7b002c857b5b3f09c7201dfd8",
+          "original_sha256": "f80de6bc72f866759ca3219987e155c312afcdc7b002c857b5b3f09c7201dfd8",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "privacy-material-injection",
+      "group": "r2",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "c53e6a9078d0a701b9b16f6f7a06421e330044785d9221d0c08e8ca31cb6619f",
+          "original_sha256": "c53e6a9078d0a701b9b16f6f7a06421e330044785d9221d0c08e8ca31cb6619f",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "317f944145e491028f21c888d542a91a353b8da81d5bf9a15005bc7b819564da",
+          "original_sha256": "317f944145e491028f21c888d542a91a353b8da81d5bf9a15005bc7b819564da",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "qa-only-missing-brief",
+      "group": "r2",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "3b9d2ebadcf9691e31ffef8e17ce2774aed0a656c319cadc9d7304ff54494859",
+          "original_sha256": "3b9d2ebadcf9691e31ffef8e17ce2774aed0a656c319cadc9d7304ff54494859",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "eb34518aea643af7528f649d5f78fd4e68f4879d65d7cf5593531b5f561e419e",
+          "original_sha256": "eb34518aea643af7528f649d5f78fd4e68f4879d65d7cf5593531b5f561e419e",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "weak-batna-full",
+      "group": "r2",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "d87dac4f68f4a022b07e2b1cd7dcb025aaac4832229e00bc6b8ad651726a6131",
+          "original_sha256": "d87dac4f68f4a022b07e2b1cd7dcb025aaac4832229e00bc6b8ad651726a6131",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "a46681ef6e23ecd7e6418c020f672dbfe1a504ce8a56886ec35a01fd0aa6df34",
+          "original_sha256": "a46681ef6e23ecd7e6418c020f672dbfe1a504ce8a56886ec35a01fd0aa6df34",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "turn1",
+      "group": "conversation",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "c1da78ab1305587e7b400a382826666798b78b8146898a24f18e15ae74974f3d",
+          "original_sha256": "c1da78ab1305587e7b400a382826666798b78b8146898a24f18e15ae74974f3d",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "67b3425bd13c6d756d1277dfc09af9b1d7bb4c162ffe95be210ea61a9c460f27",
+          "original_sha256": "67b3425bd13c6d756d1277dfc09af9b1d7bb4c162ffe95be210ea61a9c460f27",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "turn2",
+      "group": "conversation",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "f24f1e2bbb8fecd6b788a53fcf497062d886ebc61d99f988c368566cea230ba3",
+          "original_sha256": "f24f1e2bbb8fecd6b788a53fcf497062d886ebc61d99f988c368566cea230ba3",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "88a9b4b813d2fee29902f7bb5778263b6e09557093e57a0580fa45e0106cb03d",
+          "original_sha256": "88a9b4b813d2fee29902f7bb5778263b6e09557093e57a0580fa45e0106cb03d",
+          "redacted": false
+        }
+      }
+    },
+    {
+      "id": "turn3",
+      "group": "conversation",
+      "execution_exit_code": 0,
+      "verdict": "PASS",
+      "artifacts": {
+        "input.txt": {
+          "sha256": "467958c33a49a8935ea542832d5fedcb369517e9554a719a2be0ac11e2356c72",
+          "original_sha256": "467958c33a49a8935ea542832d5fedcb369517e9554a719a2be0ac11e2356c72",
+          "redacted": false
+        },
+        "output.txt": {
+          "sha256": "cd2550c735ca03bce878bf7fbb758493bbe83c6935b1ce6119fb0a053f525084",
+          "original_sha256": "cd2550c735ca03bce878bf7fbb758493bbe83c6935b1ce6119fb0a053f525084",
+          "redacted": false
+        }
+      }
+    }
+  ],
+  "grading": "Separate Codex agent inspected actual outputs; maintainer reviewed key cases. Not a new external cross-model review.",
+  "limitations": [
+    "First-round runtime 6077d16 differs from final 6591b85; the final eight-case targeted pass is not a full sixteen-case final-runtime pass. Historical partials and service failures remain visible.",
+    "Continuous conversation only covers single-sentence editing from seeded 1/2 to actual 2/2, bare Halt and explicitly extended 3/3; it does not constitute a full negotiation mock.",
+    "All people, organizations and numerical examples are synthetic. No real negotiation, salary benchmark, legal review or outcome guarantee was tested.",
+    "Mock role-play shares model context; Persona State is a behavioral constraint, not hard information isolation or an independent adversary.",
+    "Read-only host constraints contributed to containment. Host startup and background connection diagnostics may occur; agent-only event inspection does not establish a network-silent host or Skill-only safety.",
+    "Nine-skill routing used the preceding 6077d16 snapshot; metadata remained unchanged. It is not a full final-runtime routing regression.",
+    "Other hosts/models and real-world performance remain unverified; configured model identity is not independent backend authentication. Raw host traces remain private."
+  ]
+}

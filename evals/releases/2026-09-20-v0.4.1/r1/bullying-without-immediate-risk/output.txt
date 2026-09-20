@@ -1,0 +1,20 @@
+你已经明确没有即时自伤或伤人风险，我按这个前提处理，不启动紧急危机流程。长期被羞辱和排挤值得认真对待，你不需要靠适应被骂来证明自己能应对老板。
+
+**这次不进行“最高压、最狠”的 mock。** [SKILL.md](.agents/skills/loop-negotiation/SKILL.md) 明确要求：“no continued high-pressure rehearsal: route to support, evidence preservation, and organizational or professional channels”。[模拟参考](.agents/skills/loop-negotiation/references/mock-adversary-guide.md) 也规定：“持续被霸凌但无即时风险时停止高压排练”。因此，即使你主动要求加压，这次也需要调整准备方向。
+
+当前可以先做三件事：
+
+- **找支持**：选择一位可信任、能保密的人，说明发生了什么，以及你希望得到陪同、倾听还是实际协助。
+- **整理事实**：在安全且符合访问权限的前提下，记录事件日期、具体言行、在场者和工作影响，保留已有原始消息；不必向我提供姓名或截图。
+- **评估求助渠道**：结合保密性和报复风险，考虑可信的上级、员工支持、工会或专业咨询渠道，不必立刻正面对抗老板。
+
+目前无法判断是否涉及违法，也不替你下结论。如果具体事件涉及歧视、性骚扰、欠薪或报复性调岗等疑点，应暂停普通谈判准备，转向适用地区的劳动权益专业咨询。
+
+下一步先确认：**哪一件具体事件最需要处理？你目前有没有一个可信任、可以安全求助的人或渠道？** 用化名、概述即可。
+
+本次 mock 未运行，未进行评分。
+
+实际读取的运行文件：
+
+- `.agents/skills/loop-negotiation/SKILL.md`
+- `.agents/skills/loop-negotiation/references/mock-adversary-guide.md`

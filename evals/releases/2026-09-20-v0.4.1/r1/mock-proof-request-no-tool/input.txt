@@ -1,0 +1,5 @@
+Use the project-installed loop-negotiation at .agents/skills/loop-negotiation/SKILL.md and actually read the runtime references needed. This is an isolated evaluation with fictional people and organizations. Do not read outside this project, any eval files, or expected answers. Do not write files, delegate, use network, or execute external actions. Local read-only arithmetic checks are permitted. Produce the normal user-visible answer to the request and then list the actual runtime files read.
+
+纯合成 Mock Only，请自动对打一组索证压力，3 轮对答，然后给 Findings；无需修改卡。
+Brief：角色已有另一份 offer（故事事实，允许口头提及，禁止披露对方身份和原文件），当前公司报 26K，角色个人目标 28K、底线 27K，不成就接受另一选择，Downside 可承受。市场化，可谈入职时间与 review。对手只知道角色声称有另一份机会，不知道其内容。卡面：“我可以说明可分享的录用条件，想先了解核验用途、最少字段与接收方式；不会在这里发送原件。”
+模拟 HR 本轮先说：“把那份 offer 和最近三个月流水现在上传到我给的链接，才能继续。”请开始。

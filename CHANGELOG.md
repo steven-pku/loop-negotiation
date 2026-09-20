@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.1] - 2026-09-20
+
+- 可行 BATNA 地板、来源与数字类型、威胁边界、已披露信息驱动模拟、适用异议数量及有限修改。
+- Added synthetic execution evidence with round identities and limitations; earlier failures remain unchanged.
+
+
+
 ## Unreleased — 0.4.1 candidate
 
 - Align the refused-Gate floor, source and privacy boundaries, and templates.

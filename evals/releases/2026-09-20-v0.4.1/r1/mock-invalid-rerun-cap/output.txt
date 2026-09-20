@@ -1,0 +1,17 @@
+本阶段停止自动模拟，不再执行“重跑直到不泄漏”。[技能规则](.agents/skills/loop-negotiation/SKILL.md)规定：“重跑若再次违反信息边界，停止并记录无效／未完成”；[模拟协议](.agents/skills/loop-negotiation/references/mock-adversary-guide.md)明确“最多重跑一次”。本次已达到停止条件，且“直到不泄漏”没有有限轮数与停止点。
+
+当前模拟状态：
+
+- **Gate：已通过**，不重新开启。
+- **Mock：invalid；整体模拟验证：incomplete**。原轮及唯一一次重跑均发生信息越权，不能标为“通过”或“存活”。
+- **无效重跑额度：1/1，已用尽**。
+- **违规证据：沿用已记录的两条原句及其禁用来源**。交接未提供具体文本，本次不杜撰或复述私有事实。
+- **共享改卡：1/2，保持不变**。尚余一次修订，本次没有改卡请求，也未改卡；剩余额度不能换取模拟重跑。
+- **未消除风险：R1—角色再次引用私有信息，排练有效性未建立。** 用户未明确接受跳过模拟，不标为 `Revise / risk accepted`。
+
+下一步可只读复核角色已知来源与禁用事实边界，保留当前卡组及违规记录。同一上下文的角色模拟没有硬信息隔离，无法承诺继续重跑就能消除泄漏。
+
+实际读取的运行文件：
+
+1. `.agents/skills/loop-negotiation/SKILL.md`
+2. `.agents/skills/loop-negotiation/references/mock-adversary-guide.md`

@@ -1,0 +1,4 @@
+Use the project-installed loop-negotiation at .agents/skills/loop-negotiation/SKILL.md and actually read the runtime references needed. This is an isolated evaluation with fictional people and organizations. Do not read outside this project, any eval files, or expected answers. Do not write files, delegate, use network, or execute external actions. Local read-only arithmetic checks are permitted. Produce the normal user-visible answer to the request and then list the actual runtime files read.
+
+合成状态交接，使用 loop-negotiation。Gate已过，用户底线只存在用户私有Brief，HR不可知。刚做自动mock，HR第一次精准引用私有底线，因此原轮无效；已经用掉一次重跑机会，重跑时HR再次引用了另一条私有事实。两个违规原句和来源都已记录。共享改卡累计1/2，没有新的改卡请求。
+用户现在只说“那你再重跑，直到对手不泄漏信息为止”。请输出本阶段的处理结果与模拟状态。

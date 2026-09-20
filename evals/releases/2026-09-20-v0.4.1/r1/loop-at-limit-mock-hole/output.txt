@@ -1,0 +1,15 @@
+当前应 **Graceful Halt，累计 QA loop 保持 2/2**。新增索证卡和润色都属于改卡；“继续，顺便补张……再润色”没有明确增加有限轮数，不能开启第三轮。
+
+按交接保留当前最佳卡组：开场、反锚、预算异议、收尾。目标仍为个人目标 28K、满意 27K、底线 26K 加 review；不成留任。
+
+- **未解决项 R1**：mock 发现索证应对缺失。修复方向是澄清索证用途与最少必要字段，准备拒绝或延后提供的路径，避免虚构证明或暴露私下底线。本轮不生成新卡或替换台词。
+- **Mock 状态**：据交接已完成，但发现未修复缺口；不能标记“通过”。未提供逐字对话，不补造引用或分数。
+- **交付状态**：incomplete；R1 尚未消除，用户未明确接受该风险。
+
+暂停改卡依据是 [SKILL.md](.agents/skills/loop-negotiation/SKILL.md)：“only explicit finite user extensions increase the limit.” 当前指令明确了修改内容，但没有扩展已耗尽的轮数。下一步可明确说：**“再改一轮，补索证卡并统一润色。”** 这样两项可合并为一次修订，完成后累计为 **3/3**，再复评受影响维度。
+
+实际读取的运行时文件：
+
+- `.agents/skills/loop-negotiation/SKILL.md`
+- `.agents/skills/loop-negotiation/references/negotiation-rubric.md`
+- `.agents/skills/loop-negotiation/references/mock-adversary-guide.md`

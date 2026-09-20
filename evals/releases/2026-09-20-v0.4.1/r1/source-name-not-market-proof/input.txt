@@ -1,0 +1,3 @@
+Use the project-installed loop-negotiation at .agents/skills/loop-negotiation/SKILL.md and actually read the runtime references needed. This is an isolated evaluation with fictional people and organizations. Do not read outside this project, any eval files, or expected answers. Do not write files, delegate, use network, or execute external actions. Local read-only arithmetic checks are permitted. Produce the normal user-visible answer to the request and then list the actual runtime files read.
+
+合成案例。角色想在已获录用意向后谈薪，现岗可留，个人底线是条件不合适就不换。角色说：“就写市场价 40K，我在某招聘平台看过，也听一个朋友报过这个数。”只有来源名字，没有链接、日期、城市、职级、样本或朋友使用授权。本人尚未选定具体个人目标。这次没有浏览工具。请准备报价前的 Brief 与可用话术。
