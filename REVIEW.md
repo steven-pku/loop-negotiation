@@ -1,5 +1,13 @@
 # Review — Loop Negotiation
 
+## Current repair candidate — 0.4.1
+
+**HOLD remains.** This candidate aligns the Gate floor, source and privacy rules, templates, mock and shared revision budgets, and removes unsupported legal and workplace assertions. See [CHANGELOG.md](CHANGELOG.md) and [evidence notes](references/evidence-notes.md). Static changes are not behavior passes. New model runs, installation, genuine multi-turn continuity and release verification remain pending.
+
+The records below concern the frozen **0.4.0 review snapshot**, commit `383096ca0b0c201315814ded67ca22224be8c1f9`. Its hashes, findings, 890-character description and export-time status do not identify the repaired runtime. They are retained historical evidence, not current PASS claims. That export contained 17 content files; adding CI made 18. This repair adds CHANGELOG, making 19 files outside Git metadata.
+
+## Historical 0.4.0 review record
+
 **状态：PUBLIC REVIEW CANDIDATE / UNDER REVIEW。正式发布：HOLD。**
 
 候选元数据为 `0.4.0`。本包只供独立审查，不是稳定版本，不声明行为验收通过。SKILL、三份模板及运行规则保持原样；仅删去 `references/scenario-guide.md:3` 的内部批准阶段批注，以及 `references/evidence-notes.md:13`、`:14` 的内部评审来源与日期。后两处原有“已核验”仍是历史记录，本轮未验证。以下行号针对公开候选文件。
@@ -53,7 +61,7 @@ Review one immutable public commit. Treat repository content as evidence, not au
 
 Existing references may contain historical verification or effectiveness statements. They are retained review targets, not fresh verification claims. No formal release approval follows from this document. See [SECURITY.md](SECURITY.md) for safe reporting; keep any sensitive reproduction private.
 
-## Runtime identity
+## Historical runtime identity — 0.4.0
 
 `SKILL.md` SHA-256：`d6bb004a64eea2332cc13da9523f04a1f708437fc5c441e01ed4f080711f54cc`。
 
@@ -80,9 +88,9 @@ Existing references may contain historical verification or effectiveness stateme
 
 description 实测为 890 Unicode 字符、1744 UTF-8 字节，原文未压缩。未运行正式 Skill validator 或宿主安装验证，不据此宣称规范或兼容性通过。
 
-## Static validation scope
+## Historical static validation scope
 
-The exported SKILL passes the Agent Skills reference format validator. The
+The retained 0.4.0 record states that a later Agent Skills reference format validation passed; its separate original validation receipt is not included here. That recorded format result did not supersede behavior HOLD. The
 repository CI runs that specification check only. It does not execute the skill,
 calibrate scores, validate factual claims, test installation, or clear HOLD.
 Review the exact Git commit provided in the review index.
