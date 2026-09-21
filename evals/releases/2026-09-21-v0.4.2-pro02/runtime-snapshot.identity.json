@@ -1,0 +1,96 @@
+{
+  "schema": "loop-runtime-snapshot-v1",
+  "repository": "steven-pku/loop-negotiation",
+  "candidate_commit": "ea6772d4b941b0954835be710f7cc237bbfd5c10",
+  "metadata_version": "0.4.2",
+  "root": "loop-negotiation/",
+  "runtime_file_count": 12,
+  "runtime_manifest_sha256": "8f8cd6d8d342911008aa2869ee3617477dcd1d7d26a0ee64f570966f65daa466",
+  "file_identity_scope": "Git-blob identity verified; not a behavior test or release approval",
+  "files": {
+    "SKILL.md": {
+      "sha256": "966ed55bc9e1b19a9c61d2eef5c487300fc39d6fc60a3b46e47f6454dbd932fa",
+      "git_blob": "5d05eecae1b988903baeb7466f4e41abd1034394",
+      "bytes": 22360,
+      "kind": "runtime"
+    },
+    "SECURITY.md": {
+      "sha256": "01e97eb9cd9512003779482b51e9de60a2cadf7d6f1004b87f1953c704724020",
+      "git_blob": "471c04fc231a57749430e5a77ace8bd0e553a6f4",
+      "bytes": 2248,
+      "kind": "support"
+    },
+    "references/batna-gate-guide.md": {
+      "sha256": "ad3f7564ba917cacc58d201f21f2cacdc8b114086e7503299c757abb7da16b01",
+      "git_blob": "ef0b8cfdbbb7409e3bef016c8c4e5f230ae91b81",
+      "bytes": 5416,
+      "kind": "runtime"
+    },
+    "references/brief-guide.md": {
+      "sha256": "3e45fc5df922be30e7f522fd6c5f665fb2b6bec2757bbc450bbb9de0eb48d0d4",
+      "git_blob": "042990ae0c020daee633390cbdb1e3ea04c8ed7d",
+      "bytes": 5081,
+      "kind": "runtime"
+    },
+    "references/cn-workplace-notes.md": {
+      "sha256": "e77e38cb6fa334061c8584050e18bf538d6699fbf51b762b0f8dfe4f0de1a28d",
+      "git_blob": "c395249011d13fde09b3ee759a48f5c81075dcfc",
+      "bytes": 3657,
+      "kind": "runtime"
+    },
+    "references/evidence-notes.md": {
+      "sha256": "ee6aa8eb5fe90393abcaacb0f1fd85e8c7d51de364f330245ab44bf068fb4412",
+      "git_blob": "c9305ef399617b03ba63f2b412591b1b89ab2239",
+      "bytes": 3159,
+      "kind": "runtime"
+    },
+    "references/mock-adversary-guide.md": {
+      "sha256": "ac7ae1ba5d86979b1d09c053af5806ede98be0fc636243a53638edffa9c0ec3b",
+      "git_blob": "194b8578cdd7f4f31e39ff181f0c08a586f394cd",
+      "bytes": 4093,
+      "kind": "runtime"
+    },
+    "references/negotiation-rubric.md": {
+      "sha256": "34e25bd8c5842cccd61069e3ca7a036999fb595e0aa4b5787cdfe927faf0167b",
+      "git_blob": "a52bb854c676ba58ac0a701d30884843acd71a82",
+      "bytes": 8452,
+      "kind": "runtime"
+    },
+    "references/scenario-guide.md": {
+      "sha256": "f0fccdbb4539de37aedef92731eda0b05c084fdad1100d49d8782f74b0400cb0",
+      "git_blob": "6435b6fb71bad5e49a1c080d16f352909229efb0",
+      "bytes": 3117,
+      "kind": "runtime"
+    },
+    "references/script-card-patterns.md": {
+      "sha256": "6a869f5cf478b25ca4cd682c9f59f8b9363919a71176ef09d6b091e1ab35e3ba",
+      "git_blob": "0cc206db4101bdfa90fe6d8eca564891a2847f8e",
+      "bytes": 4632,
+      "kind": "runtime"
+    },
+    "assets/negotiation-brief-template.md": {
+      "sha256": "3da6e83cfc5deffb359397ff4189b012ff8e567ac5b3f58828a4782885163a25",
+      "git_blob": "32bab5ad29b75eafd475cf1f010ba15b66dbec83",
+      "bytes": 1538,
+      "kind": "runtime"
+    },
+    "assets/qa-scorecard-template.md": {
+      "sha256": "5f727680263fd905d7db138a1fe92ff5a80a211f8411537a2f9afc9907e93247",
+      "git_blob": "0853c0aff08f3fc20ba581d88182202d5a395671",
+      "bytes": 1622,
+      "kind": "runtime"
+    },
+    "assets/script-card-template.md": {
+      "sha256": "043b2266226ba6fa37bc8d4a31c117fcd68f941e4240d09ef4f3a39186ca7453",
+      "git_blob": "9fcc82f43e42bd011441b78a4fc05e43bbca1c93",
+      "bytes": 1159,
+      "kind": "runtime"
+    },
+    "LICENSE": {
+      "sha256": "f5ef1cb91215a16f97573a4f2099068c4069511c97c3e175375319e7ea1cfff3",
+      "git_blob": "04685f93d3e7cddcf76bb4412319d5bca762b666",
+      "bytes": 1067,
+      "kind": "support"
+    }
+  }
+}

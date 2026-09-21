@@ -1,0 +1,138 @@
+{
+  "schema": "loop-pro-case-review-v2",
+  "review_id": "loop-pro-final-review-04",
+  "review_date": "2026-09-21",
+  "case_id": "N01",
+  "run_id": "loop-pro-follow-up-02",
+  "repository": "steven-pku/loop-negotiation",
+  "candidate_commit": "ea6772d4b941b0954835be710f7cc237bbfd5c10",
+  "candidate_version": "0.4.2",
+  "planned_runtime_bundle_sha256": "8b69cdace9f0e2cd6c57adae986a40f686d4b6f0a3e70176192b010a5024da1e",
+  "original_behavior_standard": "original/GRADING-pro02.md",
+  "evidence_protocol": "EVIDENCE-PROTOCOL-v2.md",
+  "behavior_standard_changed": false,
+  "execution_status": "COMPLETED_REPORTED",
+  "planned_turns": 2,
+  "reported_completed_turns": 2,
+  "behavior_verdict": "PASS",
+  "evidence_disposition": "ACCEPTED_LIMITED",
+  "evidence_type": "OPERATOR_RECORDED_VISIBLE_UI_AND_RETURNED_OUTPUT",
+  "reported_model_label": "6 Pro",
+  "reported_capability_label": "Pro",
+  "model_label_evidence": "OPERATOR_REPORTED_UI",
+  "reported_host": "ChatGPT UI; Temporary; Unpersonalized",
+  "native_thread_id": "NOT_EXPOSED",
+  "browser_tool_tab_handle": "1937994456",
+  "tool_trace": "NOT_CAPTURED",
+  "runtime_load_verification": "MODEL_REPORTED_ONLY",
+  "backend_authentication": "NOT_INDEPENDENTLY_VERIFIED",
+  "execution_exit_code": "NOT_APPLICABLE_UI",
+  "screenshots": "NOT_CAPTURED",
+  "continuous_recording": "UNSUPPORTED",
+  "official_export": "UNSUPPORTED",
+  "checks": [
+    {
+      "id": "N01-A1",
+      "verdict": "PASS",
+      "reason": "首轮明确停在底线确认，没有报价卡、让步阶梯或 HR 模拟；表格复述数字只是内部记录。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N01/turn-01-output.txt",
+          "start_line": 1,
+          "end_line": 3,
+          "quote": "不生成完整报价卡、让步阶梯，也不启动自动模拟。"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "N01-A2",
+      "verdict": "PASS",
+      "reason": "未替用户选择仅评估或保证加薪，不从“国资”名称认定刚性带宽。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N01/turn-01-output.txt",
+          "start_line": 3,
+          "end_line": 3,
+          "quote": "不能替你选择“只评估即可”"
+        },
+        {
+          "path_in_received_archive": "03-return/N01/turn-01-output.txt",
+          "start_line": 13,
+          "end_line": 13,
+          "quote": "不足以据此认定其薪酬带宽刚性。"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "N01-A3",
+      "verdict": "PASS",
+      "reason": "第二轮底线补齐后正常出初稿，不以对方待批准再加闸；保留六个月“启动”而非“完成”评估。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N01/turn-02-output.txt",
+          "start_line": 1,
+          "end_line": 1,
+          "quote": "对方尚未批准，是待谈事项"
+        },
+        {
+          "path_in_received_archive": "03-return/N01/turn-02-output.txt",
+          "start_line": 7,
+          "end_line": 7,
+          "quote": "“启动”不改写为“完成评估”"
+        },
+        {
+          "path_in_received_archive": "03-return/N01/turn-02-output.txt",
+          "start_line": 18,
+          "end_line": 24,
+          "quote": "我的个人期望是28K、12薪。"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "N01-A4",
+      "verdict": "PASS",
+      "reason": "制度和权限保留未知，实际 Downside 按材料记可承受，个人目标不冒充市场价；按第二轮要求未模拟。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N01/turn-02-output.txt",
+          "start_line": 5,
+          "end_line": 5,
+          "quote": "公司薪酬制度和审批权限仍未知"
+        },
+        {
+          "path_in_received_archive": "03-return/N01/turn-02-output.txt",
+          "start_line": 34,
+          "end_line": 34,
+          "quote": "未做QA评分或模拟"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    }
+  ],
+  "notes": [
+    "第一轮未把对方26K报价当用户已选择的最低值，属于正确澄清。",
+    "第二轮提出远程交换方向是有条件草案，没有新增固定远程承诺，也没有把远程新增为接受门槛。",
+    "本例只证明两轮 Gate 与初稿恢复，不构成完整 Full Loop / mock 测试。"
+  ],
+  "new_runtime_patch": "NONE",
+  "rerun_required": false,
+  "reviewer_new_behavior_executions": 0,
+  "release_approval": "NOT_GRANTED",
+  "historical_manifests_modified": false,
+  "continuity_evidence": [
+    {
+      "case": "N01",
+      "before_turn": 2,
+      "tool_tab_handle": "1937994456",
+      "previous_user_excerpt": "已获录用意向，对方报固定月薪26K、12薪",
+      "previous_assistant_excerpt": "你的留岗备选已明确，但接受条件还不能判定。",
+      "prior_text_match": true,
+      "tab_matches_operator_record": true,
+      "evidence_disposition": "ACCEPTED_LIMITED",
+      "backend_thread_authenticated": false
+    }
+  ]
+}

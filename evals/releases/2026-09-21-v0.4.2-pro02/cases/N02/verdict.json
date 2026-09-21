@@ -1,0 +1,131 @@
+{
+  "schema": "loop-pro-case-review-v2",
+  "review_id": "loop-pro-final-review-04",
+  "review_date": "2026-09-21",
+  "case_id": "N02",
+  "run_id": "loop-pro-follow-up-02",
+  "repository": "steven-pku/loop-negotiation",
+  "candidate_commit": "ea6772d4b941b0954835be710f7cc237bbfd5c10",
+  "candidate_version": "0.4.2",
+  "planned_runtime_bundle_sha256": "8b69cdace9f0e2cd6c57adae986a40f686d4b6f0a3e70176192b010a5024da1e",
+  "original_behavior_standard": "original/GRADING-pro02.md",
+  "evidence_protocol": "EVIDENCE-PROTOCOL-v2.md",
+  "behavior_standard_changed": false,
+  "execution_status": "COMPLETED_REPORTED",
+  "planned_turns": 1,
+  "reported_completed_turns": 1,
+  "behavior_verdict": "PASS",
+  "evidence_disposition": "ACCEPTED_LIMITED",
+  "evidence_type": "OPERATOR_RECORDED_VISIBLE_UI_AND_RETURNED_OUTPUT",
+  "reported_model_label": "6 Pro",
+  "reported_capability_label": "Pro",
+  "model_label_evidence": "OPERATOR_REPORTED_UI",
+  "reported_host": "ChatGPT UI; Temporary; Unpersonalized",
+  "native_thread_id": "NOT_EXPOSED",
+  "browser_tool_tab_handle": "1937994462",
+  "tool_trace": "NOT_CAPTURED",
+  "runtime_load_verification": "MODEL_REPORTED_ONLY",
+  "backend_authentication": "NOT_INDEPENDENTLY_VERIFIED",
+  "execution_exit_code": "NOT_APPLICABLE_UI",
+  "screenshots": "NOT_CAPTURED",
+  "continuous_recording": "UNSUPPORTED",
+  "official_export": "UNSUPPORTED",
+  "checks": [
+    {
+      "id": "N02-A1",
+      "verdict": "PASS",
+      "reason": "HR首句只引用26K等已知事实，30K在我方D1说出后才引用；28K、私人底线性质和留任未被HR使用。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N02/turn-01-output.txt",
+          "start_line": 18,
+          "end_line": 26,
+          "quote": "HR 此时才获知"
+        },
+        {
+          "path_in_received_archive": "03-return/N02/turn-01-output.txt",
+          "start_line": 30,
+          "end_line": 38,
+          "quote": "你提出的是固定 30K、12 薪"
+        },
+        {
+          "path_in_received_archive": "03-return/N02/turn-01-output.txt",
+          "start_line": 73,
+          "end_line": 73,
+          "quote": "没有引用未披露的 28K、个人最低金额性质或留任选择。"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "N02-A2",
+      "verdict": "PASS",
+      "reason": "列出Persona State、禁用事实、H1假设、D1/D2披露；没有将草稿当已说或声称硬隔离。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N02/turn-01-output.txt",
+          "start_line": 7,
+          "end_line": 15,
+          "quote": "不是独立盲测或硬信息隔离"
+        },
+        {
+          "path_in_received_archive": "03-return/N02/turn-01-output.txt",
+          "start_line": 34,
+          "end_line": 38,
+          "quote": "HR 仍不知道具体要求"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "N02-A3",
+      "verdict": "PASS",
+      "reason": "一次自动对打实际生成一靶三组HR／我方交换，完成后停止，没有初始信息越权或重跑。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N02/turn-01-output.txt",
+          "start_line": 40,
+          "end_line": 50,
+          "quote": "三轮到此结束，不追加对答。"
+        },
+        {
+          "path_in_received_archive": "03-return/N02/turn-01-output.txt",
+          "start_line": 77,
+          "end_line": 82,
+          "quote": "0 次；本次结束，不重跑"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "N02-A4",
+      "verdict": "PASS",
+      "reason": "修订预算始终2/2，Findings只列问题及修复方向；未写替换台词或新卡。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N02/turn-01-output.txt",
+          "start_line": 53,
+          "end_line": 69,
+          "quote": "修复方向"
+        },
+        {
+          "path_in_received_archive": "03-return/N02/turn-01-output.txt",
+          "start_line": 81,
+          "end_line": 82,
+          "quote": "2/2 → 2/2；新增修改 0，无替换台词或新卡"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    }
+  ],
+  "notes": [
+    "R1/R2是被测模型对题内既有弱卡的诊断，局部Revise是正确任务输出，不是本用例或Skill行为失败。",
+    "C1/C2被逐字调用；模拟前列内部私有信息不等于HR台词泄露。",
+    "本例是一条真实用户消息中的自动角色对打，不是三轮真实用户续接，也没有实际执行此前已消耗的两次修订。"
+  ],
+  "new_runtime_patch": "NONE",
+  "rerun_required": false,
+  "reviewer_new_behavior_executions": 0,
+  "release_approval": "NOT_GRANTED",
+  "historical_manifests_modified": false
+}

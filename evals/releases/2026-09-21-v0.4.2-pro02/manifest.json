@@ -1,0 +1,360 @@
+{
+  "schema": "loop-pro-directed-acceptance-v2",
+  "run_id": "loop-pro-follow-up-02",
+  "review_id": "loop-pro-final-review-04",
+  "review_date": "2026-09-21",
+  "repository": "steven-pku/loop-negotiation",
+  "version": "0.4.2",
+  "candidate_commit": "ea6772d4b941b0954835be710f7cc237bbfd5c10",
+  "base_commit": "f41a77f3b3fc2b4acfc66a3773eae0570d7fa178",
+  "runtime_files": {
+    "SKILL.md": "966ed55bc9e1b19a9c61d2eef5c487300fc39d6fc60a3b46e47f6454dbd932fa",
+    "references/batna-gate-guide.md": "ad3f7564ba917cacc58d201f21f2cacdc8b114086e7503299c757abb7da16b01",
+    "references/brief-guide.md": "3e45fc5df922be30e7f522fd6c5f665fb2b6bec2757bbc450bbb9de0eb48d0d4",
+    "references/cn-workplace-notes.md": "e77e38cb6fa334061c8584050e18bf538d6699fbf51b762b0f8dfe4f0de1a28d",
+    "references/evidence-notes.md": "ee6aa8eb5fe90393abcaacb0f1fd85e8c7d51de364f330245ab44bf068fb4412",
+    "references/mock-adversary-guide.md": "ac7ae1ba5d86979b1d09c053af5806ede98be0fc636243a53638edffa9c0ec3b",
+    "references/negotiation-rubric.md": "34e25bd8c5842cccd61069e3ca7a036999fb595e0aa4b5787cdfe927faf0167b",
+    "references/scenario-guide.md": "f0fccdbb4539de37aedef92731eda0b05c084fdad1100d49d8782f74b0400cb0",
+    "references/script-card-patterns.md": "6a869f5cf478b25ca4cd682c9f59f8b9363919a71176ef09d6b091e1ab35e3ba",
+    "assets/negotiation-brief-template.md": "3da6e83cfc5deffb359397ff4189b012ff8e567ac5b3f58828a4782885163a25",
+    "assets/qa-scorecard-template.md": "5f727680263fd905d7db138a1fe92ff5a80a211f8411537a2f9afc9907e93247",
+    "assets/script-card-template.md": "043b2266226ba6fa37bc8d4a31c117fcd68f941e4240d09ef4f3a39186ca7453"
+  },
+  "runtime_manifest_sha256": "8f8cd6d8d342911008aa2869ee3617477dcd1d7d26a0ee64f570966f65daa466",
+  "runtime_identity": "SOURCE_SNAPSHOT_HASHES_VERIFIED; EXECUTION_LOAD_ONLY_MODEL_REPORTED",
+  "runtime_attachment": {
+    "filename": "loop-negotiation-0.4.2-ea6772d4-runtime.zip",
+    "sha256": "8b69cdace9f0e2cd6c57adae986a40f686d4b6f0a3e70176192b010a5024da1e",
+    "release_asset_upload": "NOT_RUN"
+  },
+  "source_return_zip": {
+    "filename": "loop-pro-return03-evidence-01.zip",
+    "sha256": "a1922fd85fb9d52b05dbd499f48913c83803ade5c88eb6d5a11c30fb819f2b9f"
+  },
+  "behavior_execution_status": "COMPLETED_REPORTED",
+  "behavior_execution_gate": "SATISFIED_LIMITED_UI_EVIDENCE_FOR_THIS_BATCH",
+  "requested_execution_model": "GPT Pro",
+  "actual_execution_model": "UI_LABEL_6_Pro_CAPABILITY_Pro_OPERATOR_REPORTED",
+  "actual_host": "ChatGPT UI with runtime ZIP; Temporary and Unpersonalized reported",
+  "backend_identity_verification": "NOT_RUN",
+  "native_thread_id": "NOT_EXPOSED",
+  "actual_execution_at": "OPERATOR_REPORTED_2026-09-21_ASIA_SINGAPORE; per-turn absolute times mostly NOT_RECORDED",
+  "grading_status": "COMPLETED",
+  "grader": "GPT-6 Astra Pro in current review conversation",
+  "new_model_executions_by_grader": 0,
+  "cases": {
+    "N01": {
+      "planned_turns": 2,
+      "reported_completed_turns": 2,
+      "execution_status": "COMPLETED_REPORTED",
+      "behavior_verdict": "PASS",
+      "evidence_disposition": "ACCEPTED_LIMITED",
+      "carried_forward": false,
+      "grade_scope": "Original assertions applied to returned visible content; tool execution is not independently audited.",
+      "model": {
+        "ui_label": "6 Pro",
+        "capability": "Pro",
+        "evidence": "OPERATOR_REPORTED",
+        "backend_id": "NOT_EXPOSED"
+      },
+      "input_artifacts": {
+        "turn-01-input.txt": {
+          "kind": "OPERATOR_CAPTURED_VISIBLE_INPUT",
+          "sha256": "bfa327bd30e24644d18f2b6189cb7a0c055ab7d44987a2b938b4cb55c921466d"
+        },
+        "turn-02-input.txt": {
+          "kind": "OPERATOR_CAPTURED_VISIBLE_INPUT",
+          "sha256": "310ed5d6ba5b4254fa7e338e69595b2217d15a00c7c0f9e24c5ad2e6d83ea502"
+        }
+      },
+      "output_artifacts": {
+        "turn-01-output.txt": {
+          "kind": "OPERATOR_CAPTURED_FLATTENED_OUTPUT",
+          "sha256": "6a8c7ef0976dd3c0a773b03cd6680aea90a14f1d782dd7a184a7dcff4cc8f9ee"
+        },
+        "turn-02-output.txt": {
+          "kind": "OPERATOR_CAPTURED_FLATTENED_OUTPUT",
+          "sha256": "ba065d25ee60441a9a740cddc0d0688516e7376e645a31743ef9ca8099d9a5bc"
+        }
+      },
+      "verdict_file": "cases/N01/verdict.json",
+      "tool_trace": "NOT_CAPTURED",
+      "runtime_load_verification": "MODEL_REPORTED_ONLY",
+      "execution_exit_code": "NOT_APPLICABLE_UI",
+      "native_thread_id": "NOT_EXPOSED",
+      "continuity_evidence": [
+        {
+          "case": "N01",
+          "before_turn": 2,
+          "tool_tab_handle": "1937994456",
+          "previous_user_excerpt": "已获录用意向，对方报固定月薪26K、12薪",
+          "previous_assistant_excerpt": "你的留岗备选已明确，但接受条件还不能判定。",
+          "prior_text_match": true,
+          "tab_matches_operator_record": true,
+          "evidence_disposition": "ACCEPTED_LIMITED",
+          "backend_thread_authenticated": false
+        }
+      ],
+      "grading_evidence": "cases/N01/verdict.json"
+    },
+    "N02": {
+      "planned_turns": 1,
+      "reported_completed_turns": 1,
+      "execution_status": "COMPLETED_REPORTED",
+      "behavior_verdict": "PASS",
+      "evidence_disposition": "ACCEPTED_LIMITED",
+      "carried_forward": false,
+      "grade_scope": "Original assertions applied to returned visible content; tool execution is not independently audited.",
+      "model": {
+        "ui_label": "6 Pro",
+        "capability": "Pro",
+        "evidence": "OPERATOR_REPORTED",
+        "backend_id": "NOT_EXPOSED"
+      },
+      "input_artifacts": {
+        "turn-01-input.txt": {
+          "kind": "OPERATOR_CAPTURED_VISIBLE_INPUT",
+          "sha256": "91fdb4a86450df9c69ef2e8c55a1727f3e0dd7056241ab59e8e024bbc09ce0ac"
+        }
+      },
+      "output_artifacts": {
+        "turn-01-output.txt": {
+          "kind": "OPERATOR_CAPTURED_FLATTENED_OUTPUT",
+          "sha256": "33601128e43326aee380073bed83e66beb6d3ee6b52d690b05aca6bdf93ef301"
+        }
+      },
+      "verdict_file": "cases/N02/verdict.json",
+      "tool_trace": "NOT_CAPTURED",
+      "runtime_load_verification": "MODEL_REPORTED_ONLY",
+      "execution_exit_code": "NOT_APPLICABLE_UI",
+      "native_thread_id": "NOT_EXPOSED",
+      "continuity_evidence": "NOT_APPLICABLE_SINGLE_TURN",
+      "grading_evidence": "cases/N02/verdict.json"
+    },
+    "N03": {
+      "planned_turns": 1,
+      "reported_completed_turns": 1,
+      "execution_status": "COMPLETED_REPORTED",
+      "behavior_verdict": "PASS",
+      "evidence_disposition": "ACCEPTED_LIMITED",
+      "carried_forward": false,
+      "grade_scope": "Original assertions applied to returned visible content; tool execution is not independently audited.",
+      "model": {
+        "ui_label": "6 Pro",
+        "capability": "Pro",
+        "evidence": "OPERATOR_REPORTED",
+        "backend_id": "NOT_EXPOSED"
+      },
+      "input_artifacts": {
+        "turn-01-input.txt": {
+          "kind": "OPERATOR_CAPTURED_VISIBLE_INPUT",
+          "sha256": "daf9ffb4e9c0873d5405d83b3a96eff3644653571aba0eae26b88bdfce96d471"
+        }
+      },
+      "output_artifacts": {
+        "turn-01-output.txt": {
+          "kind": "OPERATOR_CAPTURED_FLATTENED_OUTPUT",
+          "sha256": "78b7fca0ad8d64f8eea33f4e1e35711833c86cd2f9952da3dfcc0a126a75c3a2"
+        }
+      },
+      "verdict_file": "cases/N03/verdict.json",
+      "tool_trace": "NOT_CAPTURED",
+      "runtime_load_verification": "MODEL_REPORTED_ONLY",
+      "execution_exit_code": "NOT_APPLICABLE_UI",
+      "native_thread_id": "NOT_EXPOSED",
+      "continuity_evidence": "NOT_APPLICABLE_SINGLE_TURN",
+      "grading_evidence": "cases/N03/verdict.json"
+    },
+    "N04": {
+      "planned_turns": 1,
+      "reported_completed_turns": 1,
+      "execution_status": "COMPLETED_REPORTED",
+      "behavior_verdict": "PASS",
+      "evidence_disposition": "ACCEPTED_LIMITED",
+      "carried_forward": false,
+      "grade_scope": "Original assertions applied to returned visible content; tool execution is not independently audited.",
+      "model": {
+        "ui_label": "6 Pro",
+        "capability": "Pro",
+        "evidence": "OPERATOR_REPORTED",
+        "backend_id": "NOT_EXPOSED"
+      },
+      "input_artifacts": {
+        "turn-01-input.txt": {
+          "kind": "OPERATOR_CAPTURED_VISIBLE_INPUT",
+          "sha256": "ea49c26928eed68455173af7e2a03b5cf0ce888e8683bd01047fef30acffa8d7"
+        }
+      },
+      "output_artifacts": {
+        "turn-01-output.txt": {
+          "kind": "OPERATOR_CAPTURED_FLATTENED_OUTPUT",
+          "sha256": "79c36fc7798cb9116f3375c4ab289170d5a6b5e65898e582f95b2d47cd09e7ac"
+        }
+      },
+      "verdict_file": "cases/N04/verdict.json",
+      "tool_trace": "NOT_CAPTURED",
+      "runtime_load_verification": "MODEL_REPORTED_ONLY",
+      "execution_exit_code": "NOT_APPLICABLE_UI",
+      "native_thread_id": "NOT_EXPOSED",
+      "continuity_evidence": "NOT_APPLICABLE_SINGLE_TURN",
+      "grading_evidence": "cases/N04/verdict.json"
+    }
+  },
+  "artifact_files": {
+    "FINDINGS-ADDENDUM.md": {
+      "sha256": "748f014dc59581c8827739c1743f6e57bc97654c154148c7a10e21d1eb9b56b9",
+      "bytes": 1380
+    },
+    "GRADING.md": {
+      "sha256": "b02cf43cf99763feea2002c5921031e91d8e95ece21eca80b0c402b1ccc9ec8d",
+      "bytes": 4936
+    },
+    "PROVENANCE.json": {
+      "sha256": "f54c29020f13b00d78113844e4771c8b703082cd0244ae8db19b745135aa9fa9",
+      "bytes": 2032
+    },
+    "RELEASE-NOTES.md": {
+      "sha256": "6c2322b0d900bfc6250650a6220aeacba3c24b9a45668f6d909c0e0091dac6df",
+      "bytes": 1534
+    },
+    "cases/N01/OPERATOR-RECORD.md": {
+      "sha256": "99773e2cb822b8efe8e5d3c68a402102d9e5ae5469d090553ca725a29abe0dae",
+      "bytes": 3039
+    },
+    "cases/N01/turn-01-input.txt": {
+      "sha256": "bfa327bd30e24644d18f2b6189cb7a0c055ab7d44987a2b938b4cb55c921466d",
+      "bytes": 3528
+    },
+    "cases/N01/turn-01-output.txt": {
+      "sha256": "6a8c7ef0976dd3c0a773b03cd6680aea90a14f1d782dd7a184a7dcff4cc8f9ee",
+      "bytes": 3963
+    },
+    "cases/N01/turn-01-ui-observation.txt": {
+      "sha256": "572e16a943a3f18c9bb8480473ed0e7baaad8bb320c5f18c9af6fe175737662f",
+      "bytes": 376
+    },
+    "cases/N01/turn-02-continuity.json": {
+      "sha256": "a4ad313a192962466fca60effc1a060f85077ba46c3b31b931f3e9de55998b59",
+      "bytes": 366
+    },
+    "cases/N01/turn-02-input.txt": {
+      "sha256": "310ed5d6ba5b4254fa7e338e69595b2217d15a00c7c0f9e24c5ad2e6d83ea502",
+      "bytes": 393
+    },
+    "cases/N01/turn-02-output.txt": {
+      "sha256": "ba065d25ee60441a9a740cddc0d0688516e7376e645a31743ef9ca8099d9a5bc",
+      "bytes": 3795
+    },
+    "cases/N01/turn-02-ui-observation.txt": {
+      "sha256": "aa558c13c4b5b4fc2df629eb6990f84a5871efcbd7a8179d131fb319c508b386",
+      "bytes": 263
+    },
+    "cases/N01/verdict.json": {
+      "sha256": "c41bbf259feadbf6f6520283ea1df685622ea7b2994cbd9550c1b471eca91058",
+      "bytes": 5159
+    },
+    "cases/N02/OPERATOR-RECORD.md": {
+      "sha256": "b59d7faf1cbb0fddc6d2e368d715d0d0c2c3dc2219da0d86cc313fbcdea7d203",
+      "bytes": 1819
+    },
+    "cases/N02/turn-01-input.txt": {
+      "sha256": "91fdb4a86450df9c69ef2e8c55a1727f3e0dd7056241ab59e8e024bbc09ce0ac",
+      "bytes": 3843
+    },
+    "cases/N02/turn-01-output.txt": {
+      "sha256": "33601128e43326aee380073bed83e66beb6d3ee6b52d690b05aca6bdf93ef301",
+      "bytes": 6676
+    },
+    "cases/N02/turn-01-ui-observation.txt": {
+      "sha256": "2d0144ec350a12111792042206c1c2fb27229034753c685389bdb338ce8a5159",
+      "bytes": 210
+    },
+    "cases/N02/verdict.json": {
+      "sha256": "54458a0087afa945257214d3982b5a91ca073b1170ac14ba4675af2e8e859eba",
+      "bytes": 4867
+    },
+    "cases/N03/OPERATOR-RECORD.md": {
+      "sha256": "ede3217232b4da47549929443821c7046abf99fcaecdb421e71ebc68f98ef2b0",
+      "bytes": 1820
+    },
+    "cases/N03/turn-01-input.txt": {
+      "sha256": "daf9ffb4e9c0873d5405d83b3a96eff3644653571aba0eae26b88bdfce96d471",
+      "bytes": 3312
+    },
+    "cases/N03/turn-01-output.txt": {
+      "sha256": "78b7fca0ad8d64f8eea33f4e1e35711833c86cd2f9952da3dfcc0a126a75c3a2",
+      "bytes": 4531
+    },
+    "cases/N03/turn-01-ui-observation.txt": {
+      "sha256": "f7bfd9b77d49fd7a43a9506dbd5e8d4b488b0e205a2bb7227700b38567696848",
+      "bytes": 211
+    },
+    "cases/N03/verdict.json": {
+      "sha256": "2623621a5b5ade689492d72bda3c0f4190c2b9ec9d578724c59a1a392fcafcad",
+      "bytes": 3773
+    },
+    "cases/N04/OPERATOR-RECORD.md": {
+      "sha256": "c11c141f551faa3f7b25cb0672d52ae319fe236ac83dd55dee448371795a731e",
+      "bytes": 1820
+    },
+    "cases/N04/turn-01-input.txt": {
+      "sha256": "ea49c26928eed68455173af7e2a03b5cf0ce888e8683bd01047fef30acffa8d7",
+      "bytes": 3624
+    },
+    "cases/N04/turn-01-output.txt": {
+      "sha256": "79c36fc7798cb9116f3375c4ab289170d5a6b5e65898e582f95b2d47cd09e7ac",
+      "bytes": 4129
+    },
+    "cases/N04/turn-01-ui-observation.txt": {
+      "sha256": "806e28e395e6e571df13fe5e318d6845eab101cbb7ed60806b8c01e3369fe2a5",
+      "bytes": 211
+    },
+    "cases/N04/verdict.json": {
+      "sha256": "bf50aad2b9775de11c101ec15a4caad012a99bf237d9cca06d6581144e424660",
+      "bytes": 3424
+    },
+    "method/EVIDENCE-PROTOCOL-v2.md": {
+      "sha256": "5c147b4ea5298f5e181a6fc2dfb24bab5656444e8075af839b5723781f6cc4a7",
+      "bytes": 3674
+    },
+    "method/METHOD-ADDENDUM.md": {
+      "sha256": "fca748f77eb00c1744d2b6bcb2d26f2b315e45ebec34245302a9eedef5ae6995",
+      "bytes": 951
+    },
+    "method/original-GRADING-pro02.md": {
+      "sha256": "727111839c516f265ca63bbe7c681b55a3d392f00e74e36d16fb5f014b37fe7e",
+      "bytes": 5970
+    },
+    "runtime-snapshot.identity.json": {
+      "sha256": "0a51422d223c1ee8088039341024e77b7f90109f89236e70a0a8ba38ecfbcdcb",
+      "bytes": 3735
+    }
+  },
+  "evidence_protocol": "method/EVIDENCE-PROTOCOL-v2.md",
+  "original_behavior_standard": "method/original-GRADING-pro02.md",
+  "behavior_standard_changed": false,
+  "verdict": "READY",
+  "verdict_scope": "LIMITED_TARGETED_ACCEPTANCE",
+  "runtime_fix_required": false,
+  "remote_install": "NOT_RUN",
+  "native_first_use": "NOT_RUN",
+  "ci_execution": "NOT_RUN",
+  "full_regression": "NOT_RUN",
+  "cross_model_validation": "NOT_RUN",
+  "cross_host_validation": "NOT_RUN",
+  "final_documentation_commit_upload_and_readback": "NOT_RUN",
+  "release_creation": "NOT_RUN",
+  "release_approval": "NOT_GRANTED",
+  "historical_record_policy": "APPEND_ONLY. Existing manifests, raw inputs/outputs and earlier PASS/PARTIAL/service failures unchanged. No old-version pass counted as a current full regression.",
+  "limitations": [
+    "仅为这批合成材料、固定运行候选及 GPT Pro UI 附件加载方式的定向验收；不是全功能／跨模型回归或真实业务结果验证。",
+    "执行环境、无重生成及无判卷预读来自操作者记录；当前审查会话没有亲自观察执行页面。",
+    "UI模型标签为6 Pro，能力为Pro；后端模型与原生线程ID未暴露、未独立认证。",
+    "连续性按证据协议v2接受逐轮可见输入输出、工具标签句柄与前轮历史片段；不是后台会话认证。",
+    "模型关于附件哈希、全文读取及只用python的回执仍是MODEL_REPORTED_ONLY；工具逐项日志NOT_CAPTURED，不等于没有工具或网络动作。",
+    "截图NOT_CAPTURED，连续录屏／官方导出UNSUPPORTED，UI退出码NOT_APPLICABLE_UI；未设置新的录屏门槛。",
+    "本版原生安装、原生首次使用、CI运行、完整回归及最终发布提交上传／回读均NOT_RUN；不继承旧版本回执为新版通过。",
+    "全部原始材料及历史PASS/PARTIAL/服务失败保留，不修改旧manifest、旧输入输出、旧main/tag。"
+  ]
+}

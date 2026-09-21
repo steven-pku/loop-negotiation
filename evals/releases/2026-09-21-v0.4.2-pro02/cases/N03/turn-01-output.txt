@@ -1,0 +1,41 @@
+QA Only｜局部诊断
+
+结论：材料不足（incomplete），仅能做局部判断；目前没有足够依据确认致命问题（fatal），也不能据此认定草稿已经具备使用条件。 对象仅是这三句合成角色台词，不对未提供的卡组评分。
+
+原句审查
+原句	可以判断的部分	尚不能判断／材料缺口
+“这个岗位市场价40K”	原文把 40K 表述为市场事实，而不是明确标注的个人期望；本轮没有可核对的依据，应记为“草稿主张，存疑／待核”。	不知道金额的来源、日期、币种、月薪或年薪、固定薪资或总包，以及岗位、职级、地区和样本的可比性、代表性。不能认定40K真实，也不能判为编造；不能自动把它当作角色的目标或底线。
+“我还有另一份offer。”	这是另一份录用机会的主张，但台词本身不等于该机会已获确认。	缺少其状态、关键条件、有效期限，以及角色是否愿意且能够接受。只能标“未核验”，不能认定为真实筹码或虚构筹码；允许披露的范围也未知。
+“你们给不到我就选另一边。”	这是直接的条件选择表达，句内没有展开关系缓冲或协商余地。	“给不到”究竟对应什么条件、“另一边”是否可执行均未明确。不能仅凭这句话判定威胁、情绪升级或虚张声势；同样不能认定它已是有充分支持的底线陈述。
+
+三句话之间没有可直接确认的自相矛盾；但“不矛盾”不等于“已经核实”。市场主张的依据、替代方案的真实性与可执行性、措辞的关系影响，需要分别判断。以上边界依据附件中的 references/negotiation-rubric.md；数字与来源的区分依据 references/brief-guide.md。
+
+Gate 的两个诊断缺口
+
+这两项目前均未确认，不能据此将 Gate 标为通过：
+
+谈不成，角色接下来具体执行什么 Plan B？ “选另一边”尚缺关键条件、有效时间、接受意愿与可执行性；谈崩的实际代价及能否承受也未知。
+
+角色的硬底线是什么，触线后采取什么动作？ 需要可判定的金额口径及必要的非金额条件，并明确何时退出或转谈其他议题。原文中的40K不能自动代入这一位置。
+
+这只是诊断缺口，不要求本轮生成完整 Brief。补充依据也不以提交完整录用文件、截图或第三方身份为前提；匿名化的必要条件摘要与披露边界即可作为后续核对材料。（依据：references/batna-gate-guide.md、references/brief-guide.md。）
+
+评分与问题状态
+
+本轮采用上述定性局部记录，不给总分，不换算为 /100，也不套用完整卡组的85分参考线。
+
+未确认“编造市场数据”“虚构筹码”或“威胁措辞”；来源与底线缺失仍保留为待核项。不能因为未提供其余卡片，就推断未探索交换项、没有异议准备或整组卡片与 Brief 冲突。
+
+修订累计：0/2。模拟：未运行，本轮 QA Only 不据此扣分。
+
+执行读取回执
+
+候选与版本：steven-pku/loop-negotiation；提交 ea6772d4b941b0954835be710f7cc237bbfd5c10；metadata.version=0.4.2。已核对 CANDIDATE.json 的提交与版本，以及 SKILL.md 的版本。
+
+**完整性检查：**已实际在内存执行。附件 SHA-256 为 8b69cdace9f0e2cd6c57adae986a40f686d4b6f0a3e70176192b010a5024da1e，与指定值一致；ZIP 成员与声明白名单一致，白名单内14个文件的 SHA-256、字节数及 Git blob 哈希均匹配，运行文件计数为12。未解压或写入文件。
+
+**实际全文读取：**根目录 CANDIDATE.json；以下路径均相对于 loop-negotiation/：SKILL.md、references/negotiation-rubric.md、assets/qa-scorecard-template.md、references/batna-gate-guide.md、references/brief-guide.md。
+
+**仅作哈希／长度检查，未阅读正文：**同一根目录下的 LICENSE、SECURITY.md、references/cn-workplace-notes.md、references/evidence-notes.md、references/mock-adversary-guide.md、references/scenario-guide.md、references/script-card-patterns.md、assets/negotiation-brief-template.md、assets/script-card-template.md。
+
+**本轮实际调用：**仅 python.exec。本轮可见工具名称还包括 web.run、python_user_visible.exec、user_info.get_user_info、summary_reader.read、container.exec、container.feed_chars、container.open_image、container.download、personalization_disabled.explain；bio.update 标记为禁用，图像生成能力标记为不可用。

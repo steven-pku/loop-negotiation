@@ -1,0 +1,2 @@
+Tab 1937994456. Completion visible: 思考了 3m; 复制回复 present; 停止回答 absent. Earlier visible interim message: 我会先只读校验附件并完整阅读技能正文及所需参考，再处理报价卡、让步阶梯和模拟；尚未决定的接受底线会保留为待定，不替你设定。
+Tool detail NOT_EXPOSED; model claims not independently verified.

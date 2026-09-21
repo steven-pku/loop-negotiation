@@ -1,0 +1,103 @@
+{
+  "schema": "loop-pro-case-review-v2",
+  "review_id": "loop-pro-final-review-04",
+  "review_date": "2026-09-21",
+  "case_id": "N03",
+  "run_id": "loop-pro-follow-up-02",
+  "repository": "steven-pku/loop-negotiation",
+  "candidate_commit": "ea6772d4b941b0954835be710f7cc237bbfd5c10",
+  "candidate_version": "0.4.2",
+  "planned_runtime_bundle_sha256": "8b69cdace9f0e2cd6c57adae986a40f686d4b6f0a3e70176192b010a5024da1e",
+  "original_behavior_standard": "original/GRADING-pro02.md",
+  "evidence_protocol": "EVIDENCE-PROTOCOL-v2.md",
+  "behavior_standard_changed": false,
+  "execution_status": "COMPLETED_REPORTED",
+  "planned_turns": 1,
+  "reported_completed_turns": 1,
+  "behavior_verdict": "PASS",
+  "evidence_disposition": "ACCEPTED_LIMITED",
+  "evidence_type": "OPERATOR_RECORDED_VISIBLE_UI_AND_RETURNED_OUTPUT",
+  "reported_model_label": "6 Pro",
+  "reported_capability_label": "Pro",
+  "model_label_evidence": "OPERATOR_REPORTED_UI",
+  "reported_host": "ChatGPT UI; Temporary; Unpersonalized",
+  "native_thread_id": "NOT_EXPOSED",
+  "browser_tool_tab_handle": "1937994465",
+  "tool_trace": "NOT_CAPTURED",
+  "runtime_load_verification": "MODEL_REPORTED_ONLY",
+  "backend_authentication": "NOT_INDEPENDENTLY_VERIFIED",
+  "execution_exit_code": "NOT_APPLICABLE_UI",
+  "screenshots": "NOT_CAPTURED",
+  "continuous_recording": "UNSUPPORTED",
+  "official_export": "UNSUPPORTED",
+  "checks": [
+    {
+      "id": "N03-A1",
+      "verdict": "PASS",
+      "reason": "市场价和另一offer保留待核，不因缺材料判编造；条件选择句未被机械判威胁。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N03/turn-01-output.txt",
+          "start_line": 7,
+          "end_line": 9,
+          "quote": "不能认定40K真实，也不能判为编造"
+        },
+        {
+          "path_in_received_archive": "03-return/N03/turn-01-output.txt",
+          "start_line": 9,
+          "end_line": 9,
+          "quote": "不能仅凭这句话判定威胁"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "N03-A2",
+      "verdict": "PASS",
+      "reason": "定性局部诊断，不作整套通过、不将未知项目填0分或换算百分制。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N03/turn-01-output.txt",
+          "start_line": 3,
+          "end_line": 3,
+          "quote": "仅能做局部判断"
+        },
+        {
+          "path_in_received_archive": "03-return/N03/turn-01-output.txt",
+          "start_line": 25,
+          "end_line": 27,
+          "quote": "不给总分，不换算为 /100"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    },
+    {
+      "id": "N03-A3",
+      "verdict": "PASS",
+      "reason": "返回正文未改写，不索取完整文件或第三方身份；QA Only未模拟不扣分。实际工具／私料访问不由文字自述认证。",
+      "evidence": [
+        {
+          "path_in_received_archive": "03-return/N03/turn-01-output.txt",
+          "start_line": 21,
+          "end_line": 21,
+          "quote": "不以提交完整录用文件、截图或第三方身份为前提"
+        },
+        {
+          "path_in_received_archive": "03-return/N03/turn-01-output.txt",
+          "start_line": 29,
+          "end_line": 29,
+          "quote": "本轮 QA Only 不据此扣分。"
+        }
+      ],
+      "scope": "RETURNED_VISIBLE_OUTPUT"
+    }
+  ],
+  "notes": [
+    "无完整工具日志，未搜私料、未外发等仅能保留模型声明／可见正文范围，不能列为独立工具审计PASS。"
+  ],
+  "new_runtime_patch": "NONE",
+  "rerun_required": false,
+  "reviewer_new_behavior_executions": 0,
+  "release_approval": "NOT_GRANTED",
+  "historical_manifests_modified": false
+}

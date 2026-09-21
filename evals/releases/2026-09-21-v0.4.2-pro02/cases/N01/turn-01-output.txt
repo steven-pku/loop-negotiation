@@ -1,0 +1,42 @@
+你的留岗备选已明确，但接受条件还不能判定。本轮先停在底线确认，不生成完整报价卡、让步阶梯，也不启动自动模拟。
+
+附件 references/batna-gate-guide.md 的“复合底线检查”明确要求：凡是会改变接受或退出决定的必要条件，都必须先定义。你尚未决定 review 至少承诺什么、最晚何时评估，因此不能替你选择“只评估即可”，也不能擅自要求“必须保证涨薪”。否则，即使模拟谈到了28K，也无法判断是否满足你的要求。
+
+已明确的谈判条件
+项目	本轮记录
+场景与时限	已获录用意向，对方报固定月薪26K、12薪，三天后答复。
+可执行备选	谈不成就继续稳定现岗；不会失去现岗收入，实际代价可承受。无需重复构建备选方案。
+个人目标	理想28K、满意27K。这是你的个人目标，不是市场行情依据，也不自动等于硬底线。
+金额底线	尚未明确。26K是对方报价，不能自动当作你愿意接受的最低月薪。
+必要条件	所有薪资档位都必须满足你的 review 底线；不能把放弃这项底线编入让步阶梯。
+可讨论事项	对方允许讨论 review 和远程；“允许讨论”不等于已经批准。
+对方约束	实际审批权限、薪酬制度均未知。公司名称中有“国资”，不足以据此认定其薪酬带宽刚性。
+
+以上信息均来自你本轮提供的合成材料，未作独立核验。
+
+需要补齐的三项边界
+
+Review 的最低内容是什么？
+请明确“只有评估、没有保证涨薪”是否足够；若不足够，写明最低还必须承诺的内容。这里记录的是你的接受条件，不是替对方承诺。
+
+Review 最晚必须何时完成？
+请明确起算节点和最晚期限，例如采用“从入职／其他明确节点起，最晚第___个月完成评估”的格式。若调薪生效时间也会影响接受决定，应与评估期限分别写明，不能视为同一件事。
+
+在 review 达标的前提下，你的最低固定月薪及触线动作是什么？
+请按12薪口径确定金额；同时明确，任一必要条件最终不满足时，是否婉拒并继续现岗，或采取其他具体动作。现岗可留已经明确，这里缺的是何时执行该备选。
+
+对方审批权限未知，不是当前停下的原因；你自己的最低可接受条件尚未确定，才是。 无需先拿到对方批准，但不能把尚未决定的个人底线当成已经确定，也不能由模拟角色替你做决定。
+
+执行读取回执
+
+候选：steven-pku/loop-negotiation；提交 ea6772d4b941b0954835be710f7cc237bbfd5c10；版本 0.4.2。CANDIDATE.json 与 SKILL.md 的版本信息一致。
+
+实际完整性检查：已在内存中执行。附件 SHA-256 为 8b69cdace9f0e2cd6c57adae986a40f686d4b6f0a3e70176192b010a5024da1e，与所给值一致；文件白名单完全一致；清单内14个文件的逐项 SHA-256、字节数及 Git blob 标识均一致。
+
+实际全文读取：CANDIDATE.json、loop-negotiation/SKILL.md、loop-negotiation/references/batna-gate-guide.md。
+
+仅作哈希／标识校验，未全文阅读：loop-negotiation/ 下的 LICENSE、SECURITY.md；references/ 下的 brief-guide.md、cn-workplace-notes.md、evidence-notes.md、mock-adversary-guide.md、negotiation-rubric.md、scenario-guide.md、script-card-patterns.md；assets/ 下的三个模板文件。
+
+执行状态：仅调用 python.exec 读取该附件；未解压、写入、联网、外发、委派或重跑；报价卡、让步阶梯、卡片QA与自动模拟均未执行。
+
+本轮可见工具名称：python.exec、python_user_visible.exec、web.run、user_info.get_user_info、summary_reader.read、container.exec、container.feed_chars、container.open_image、container.download、personalization_disabled.explain；另有标为禁用的 bio.update，以及标为不可用的 image_gen_no_temp_chat 图像生成工具说明。

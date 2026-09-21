@@ -1,0 +1,52 @@
+局部 QA 结论
+
+本次两类适用异议均已覆盖；两张卡都有明确回应和后续转向，语气坚定而不对抗。 在给定合成材料内，未发现虚构筹码、越过底线的承诺或威胁式措辞。
+
+审查基准是你已给出的可执行替代方案——保留现岗、按既定日期交接，以及底线——不承诺未获准的提前到岗或远程。这里只做材料内部一致性检查，不将合成设定表述为已经外部核验的事实。
+
+适用覆盖
+
+覆盖为 2/2：到岗日期、远程安排。 其余异议没有事实或明示训练假设支持，不属于本次覆盖要求；不能为了凑到三类而增补，也不能因只有两类而扣分。此次不谈薪，谈薪场景的“只谈基本工资、未探索其他可交换项”检查不适用。
+
+依据：references/negotiation-rubric.md 第 5 维明确规定，不因有依据的适用异议少于三项而机械扣分；fatal #2 仅适用于谈薪／加薪场景。
+
+逐卡评价
+卡片	回应评价	语气评价
+卡一：提前一周到岗	“我需要按已约定日期交接，无法承诺提前”直接回答请求，并与底线一致。“可以先确认入职首周安排”将讨论转向可先确认的信息，而非提前履职的承诺，属于回应＋转向，不是单纯重复拒绝。	用自己的交接约束说明边界，没有责备或反问；末句保留了合作空间。表达直接，但不生硬对抗。
+卡二：本岗暂无远程	“请确认是否完全现场”把“暂无远程”进一步转成需要明确的工作条件；“按这个明确条件决定是否接受”保留自主决定；“不把未来口头可能性算作承诺”没有把未获准的安排当成既定条件。它既未擅自承诺接受现场，也未要求对方保证未来远程。	“我理解”承接对方约束。“决定是否接受”是在说明自己的选择边界，不是威胁对方必须让步。末句区分可能性与承诺，没有指控对方欺骗。
+
+依据：references/script-card-patterns.md 的“回应＋转向”要求，以及 references/negotiation-rubric.md 第 6 维和 fatal #5 对坚定底线与威胁措辞的区分。
+
+适用维度判定
+
+异议应对覆盖度处于 rubric 高档（13–15/15）；语气与关系处于 高档（9–10/10）。这是局部档位判断，不计算或折算为 /100，也不套用完整卡组的 85 分参考线。
+
+其余四维不作完整评分：本次没有提交完整目标层级、对方视角表、让步阶梯或开场卡；已给出的底线只用于一致性核对，不据此补出其余内容。本次可判范围内未发现 fatal。 未改写卡片；修订累计 0/2；未运行 mock，不形成模拟或完整卡组结论。
+
+执行读取回执
+
+候选：steven-pku/loop-negotiation；提交 ea6772d4b941b0954835be710f7cc237bbfd5c10；版本 0.4.2。
+
+**完整性检查：**实际在内存中执行。附件 SHA-256 与给定值一致；CANDIDATE.json 的提交、版本、文件白名单与运行文件数匹配；清单内 14/14 个文件的 SHA-256、字节数及 Git blob 标识均一致；SKILL.md 内版本亦一致。未解压或写入文件。
+
+**实际全文读取：**包根 CANDIDATE.json；以及下列文件（路径均以 loop-negotiation/ 为前缀）：
+
+SKILL.md
+references/negotiation-rubric.md
+assets/qa-scorecard-template.md
+references/batna-gate-guide.md
+references/script-card-patterns.md
+references/cn-workplace-notes.md
+
+**仅作完整性读取、未阅读全文：**同一前缀下：
+
+LICENSE
+SECURITY.md
+references/brief-guide.md
+references/evidence-notes.md
+references/mock-adversary-guide.md
+references/scenario-guide.md
+assets/negotiation-brief-template.md
+assets/script-card-template.md
+
+本轮可见工具名称：python.exec、python_user_visible.exec、web.run、user_info.get_user_info、summary_reader.read、container.exec、container.feed_chars、container.open_image、container.download、personalization_disabled.explain，以及已标明禁用的 bio.update。实际仅调用 python.exec，用于读取这一附件及内存核验；未联网、外发、委派或重跑。

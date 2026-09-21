@@ -1,12 +1,14 @@
 # Review and release evidence
 
-2026-09-20. Version **v0.4.1**.
+2026-09-21. Version **v0.4.2**. Verdict: **READY — limited targeted acceptance**, not publication authorization.
 
-可行 BATNA 地板、来源与数字类型、威胁边界、已披露信息驱动模拟、适用异议数量及有限修改。
+补充复合底线 Gate：内部最低条件未定时不出报价阶梯或启动模拟；条件已明确时不因对方待批准阻塞准备。
 
-See the [dated acceptance record](evals/releases/2026-09-20-v0.4.1.md) for actual cases, round identities and limitations. Final runtime commit: `6591b8522684d2592d2ddb05747a53f94d017f4f`. Later release documentation does not change runtime files.
+Runtime candidate commit: `ea6772d4b941b0954835be710f7cc237bbfd5c10`. See the [dated acceptance record](evals/releases/2026-09-21-v0.4.2-pro02.md), [per-case grading](evals/releases/2026-09-21-v0.4.2-pro02/GRADING.md), [manifest](evals/releases/2026-09-21-v0.4.2-pro02/manifest.json) and [findings addendum](evals/releases/2026-09-21-v0.4.2-pro02/FINDINGS-ADDENDUM.md). Documentation packaging does not change runtime files.
 
-The [preceding review](evals/releases/pre-repair-review.md) remains historical, with its original failures and unexecuted scope. It is not a current HOLD or a retroactive pass.
+4 targeted cases / 5 user messages are accepted with limited UI evidence. Operator-reported model label: 6 Pro; capability: Pro. Native backend/thread identity and tool activity are not independently authenticated. Runtime loading was via a ZIP attachment; native installation, native first use, CI execution and full regression for this version are NOT_RUN. Release creation is NOT_RUN and authorization is NOT_GRANTED in this review.
+
+The [previous acceptance record](evals/releases/2026-09-20-v0.4.1.md) and [preceding review](evals/releases/pre-repair-review.md) remain historical. No earlier PASS, PARTIAL, failure or raw output is rewritten or treated as a fresh full-version pass.
 
 ## Independent inspection
 

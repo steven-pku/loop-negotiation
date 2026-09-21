@@ -1,0 +1,46 @@
+你的底线已明确，可以进入初稿准备；对方尚未批准，是待谈事项，不是继续准备的障碍。
+
+简短报价与让步草案
+
+备选是继续稳定现岗，谈崩代价可承受。公司薪酬制度和审批权限仍未知，不凭名称中的“国资”推定薪酬带宽刚性。26K报价来自你的合成材料，未独立核验；28K、27K和26K分别是你的个人理想、满意档与底线，不作为市场行情依据。
+
+各档共同条件：固定月薪至少26K、12薪；入职满六个月启动薪酬评估，评估流程书面确认即可；不要求保证涨薪，具体负责人姓名可后定。任一必要条件最终不满足，就婉拒并留任。这里的“启动”不改写为“完成评估”或“调薪生效”。
+
+内部档位	固定月薪，均为12薪	使用方式
+理想	28K＋共同条件	对方已报价，先以明确的个人期望反报价，同时讨论远程。
+满意	27K＋共同条件	若28K确实谈不动，再讨论降低1K，以可落实、你认可的远程安排作为交换方向；安排未明确前不自动承诺降价。
+底线	26K＋共同条件	作为最终方案的内部判断档，不提前连报到底。再降1K前继续争取远程改善；没有明确回报，就停下来判断，而非机械让步。
+
+**Review底线不是可让掉的筹码，也不算对方额外给你的回报。远程只是可谈议题，没有被新增为接受门槛。**远程频次尚未确定，因此这份初稿不预设具体交换结果。
+
+可用话术
+
+开场与报价
+
+谢谢你们的录用意向。固定月薪26K、12薪的方案我已了解，我的个人期望是28K、12薪。另外，我需要书面确认入职满六个月启动薪酬评估及评估流程，不要求承诺涨薪，负责人姓名可以后定。远程安排也想一起讨论。请问这些事项分别需要怎样审批，能否在原定答复期限前反馈？
+
+预算受限时
+
+了解。如果28K确实没有空间，我们可以再讨论27K，并看看远程安排能否形成双方认可的方案。六个月启动薪酬评估并书面确认流程这一条件，各档都需要保留。
+
+收尾或退出
+
+请把最终固定月薪、12薪、评估启动时间与流程，以及谈妥的远程安排书面确认，我会按原约定期限答复。
+
+必要条件最终未满足时：
+
+谢谢你们愿意沟通。最终方案与我的必要条件还未能对齐，这次我就不接受了，会继续现岗。感谢这次机会。
+
+本轮止于初稿，未做QA评分或模拟；卡片累计修订 0/2。
+
+执行读取回执
+
+候选：steven-pku/loop-negotiation，版本0.4.2，提交ea6772d4b941b0954835be710f7cc237bbfd5c10。
+
+**完整性：**本轮实际在内存中校验；附件SHA-256与所给8b69cdace9f0e2cd6c57adae986a40f686d4b6f0a3e70176192b010a5024da1e一致；提交、版本、文件白名单一致，清单内14个文件的SHA-256、字节数及Git blob标识均一致。
+
+实际全文读取：CANDIDATE.json；以下路径均位于loop-negotiation/：SKILL.md；references/{batna-gate-guide,brief-guide,script-card-patterns,scenario-guide,cn-workplace-notes}.md；assets/{negotiation-brief-template,script-card-template}.md。花括号表示逐个文件。
+
+仅完整性校验、未全文阅读：LICENSE、SECURITY.md、references/{evidence-notes,mock-adversary-guide,negotiation-rubric}.md、assets/qa-scorecard-template.md。
+
+**工具：**实际仅使用python.exec读取附件，未解压、写盘、联网、外发、委派或重跑。本轮可见工具为python.exec、python_user_visible.exec、web.run、user_info.get_user_info、summary_reader.read、container.{exec,feed_chars,open_image,download}、personalization_disabled.explain；另有已标禁用的bio.update及不可用的image_gen_no_temp_chat说明。
